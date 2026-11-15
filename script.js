@@ -1455,6 +1455,63 @@ document.querySelector('#video-lab')?.addEventListener('click', (event) => {
   labExplanation.hidden = false;
 });
 
+// Theme Toggle (Light / Dark mode)
+const themeToggle = document.querySelector('#theme-toggle');
+
+function getPreferredTheme() {
+  try {
+    const saved = localStorage.getItem('servus-theme');
+    if (saved === 'dark' || saved === 'light') return saved;
+  } catch { /* storage may be unavailable */ }
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  if (themeMeta) {
+    themeMeta.setAttribute('content', theme === 'dark' ? '#121714' : '#f3f5ef');
+  }
+  if (themeToggle) {
+    const isDark = theme === 'dark';
+    themeToggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+    themeToggle.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+    const textEl = themeToggle.querySelector('.theme-toggle-text');
+    if (textEl) textEl.textContent = isDark ? 'Light' : 'Dark';
+    const sunIcon = themeToggle.querySelector('.theme-icon-sun');
+    const moonIcon = themeToggle.querySelector('.theme-icon-moon');
+    if (sunIcon) sunIcon.hidden = !isDark;
+    if (moonIcon) moonIcon.hidden = isDark;
+  }
+}
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    try {
+      localStorage.setItem('servus-theme', next);
+    } catch { /* storage may be unavailable */ }
+    applyTheme(next);
+  });
+}
+
+if (window.matchMedia) {
+  try {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      try {
+        if (!localStorage.getItem('servus-theme')) {
+          applyTheme(e.matches ? 'dark' : 'light');
+        }
+      } catch {
+        applyTheme(e.matches ? 'dark' : 'light');
+      }
+    });
+  } catch { /* old browsers */ }
+}
+
+applyTheme(getPreferredTheme());
+
 // Initial boot
 levelCaption.textContent = levelInfo[currentLevel].label;
 renderActivity();
