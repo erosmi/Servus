@@ -13,7 +13,7 @@
       <header class="topbar">
         <a class="wordmark" href="index.html" aria-label="Servus, Deutsch! home">
           <span class="wordmark-mark" aria-hidden="true">S</span>
-          <span>servus<span class="wordmark-dot">.</span></span>
+          <span>Servus, Deutsch<span class="wordmark-dot">!</span></span>
         </a>
         <div class="topbar-note"><span class="status-dot"></span> Austrian German, for real life</div>
       </header>
@@ -23,7 +23,7 @@
           <p class="eyebrow">Österreichisch · CEFR practice A1–C2</p>
           <h1 id="page-title">Find your<br><span>local voice.</span></h1>
         </div>
-        <p class="welcome-copy">Build confidence for everyday Austria, one conversation at a time. Choose your level and jump into a skill.</p>
+        <p class="welcome-copy">Build confidence for everyday Austria.<br>Choose your level and jump into a skill.</p>
       </section>
 
       <section class="workspace" aria-label="Language practice">
@@ -43,20 +43,120 @@
         </div>
 
         <div class="practice-layout">
-          <nav class="skill-nav" aria-label="Practice skill">
-            <button type="button" class="skill-tab is-active" data-skill="speaking" aria-pressed="true"><span class="skill-symbol">↗</span><span>Speaking</span><span class="skill-detail">Say it out loud</span></button>
-            <button type="button" class="skill-tab" data-skill="listening" aria-pressed="false"><span class="skill-symbol">♫</span><span>Listening</span><span class="skill-detail">Tune your ear</span></button>
-            <button type="button" class="skill-tab" data-skill="reading" aria-pressed="false"><span class="skill-symbol">▤</span><span>Reading</span><span class="skill-detail">Catch the meaning</span></button>
-            <button type="button" class="skill-tab" data-skill="writing" aria-pressed="false"><span class="skill-symbol">✎</span><span>Writing</span><span class="skill-detail">Find your words</span></button>
-            <button type="button" class="skill-tab" data-skill="grammar" aria-pressed="false"><span class="skill-symbol">§</span><span>Grammar</span><span class="skill-detail">CEFR grammar bank</span></button>
+          <nav class="skill-nav" id="skill-nav" aria-label="Practice skill">
+            <div class="skill-item is-active" data-skill-item="speaking">
+              <button type="button" class="skill-tab is-active" data-skill="speaking" aria-pressed="true">
+                <span class="skill-symbol">↗</span>
+                <span class="skill-title">Speaking</span>
+                <span class="skill-detail">Say it out loud</span>
+              </button>
+              <div class="skill-item-dropdown">
+                <label class="skill-dropdown-label" for="tab-select-speaking">SECTION</label>
+                <div class="skill-dropdown-shell">
+                  <select class="skill-dropdown-select" id="tab-select-speaking" data-tab-select="speaking" aria-label="Speaking section"></select>
+                  <span class="skill-dropdown-arrow" aria-hidden="true">▾</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-skill-item="listening">
+              <button type="button" class="skill-tab" data-skill="listening" aria-pressed="false">
+                <span class="skill-symbol">♫</span>
+                <span class="skill-title">Listening</span>
+                <span class="skill-detail">Tune your ear</span>
+              </button>
+              <div class="skill-item-dropdown">
+                <label class="skill-dropdown-label" for="tab-select-listening">SECTION</label>
+                <div class="skill-dropdown-shell">
+                  <select class="skill-dropdown-select" id="tab-select-listening" data-tab-select="listening" aria-label="Listening section"></select>
+                  <span class="skill-dropdown-arrow" aria-hidden="true">▾</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-skill-item="reading">
+              <button type="button" class="skill-tab" data-skill="reading" aria-pressed="false">
+                <span class="skill-symbol">▤</span>
+                <span class="skill-title">Reading</span>
+                <span class="skill-detail">Catch the meaning</span>
+              </button>
+              <div class="skill-item-dropdown">
+                <label class="skill-dropdown-label" for="tab-select-reading">SECTION</label>
+                <div class="skill-dropdown-shell">
+                  <select class="skill-dropdown-select" id="tab-select-reading" data-tab-select="reading" aria-label="Reading section"></select>
+                  <span class="skill-dropdown-arrow" aria-hidden="true">▾</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-skill-item="writing">
+              <button type="button" class="skill-tab" data-skill="writing" aria-pressed="false">
+                <span class="skill-symbol">✎</span>
+                <span class="skill-title">Writing</span>
+                <span class="skill-detail">Find your words</span>
+              </button>
+              <div class="skill-item-dropdown">
+                <label class="skill-dropdown-label" for="tab-select-writing">SECTION</label>
+                <div class="skill-dropdown-shell">
+                  <select class="skill-dropdown-select" id="tab-select-writing" data-tab-select="writing" aria-label="Writing section"></select>
+                  <span class="skill-dropdown-arrow" aria-hidden="true">▾</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-skill-item="vocabulary">
+              <button type="button" class="skill-tab" data-skill="vocabulary" aria-pressed="false">
+                <span class="skill-symbol">▣</span>
+                <span class="skill-title">Vocabulary</span>
+                <span class="skill-detail">Review Austrian words</span>
+              </button>
+              <div class="skill-item-dropdown">
+                <label class="skill-dropdown-label" for="tab-select-vocabulary">SECTION</label>
+                <div class="skill-dropdown-shell">
+                  <select class="skill-dropdown-select" id="tab-select-vocabulary" data-tab-select="vocabulary" aria-label="Vocabulary section"></select>
+                  <span class="skill-dropdown-arrow" aria-hidden="true">▾</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item" data-skill-item="grammar">
+              <button type="button" class="skill-tab" data-skill="grammar" aria-pressed="false">
+                <span class="skill-symbol">§</span>
+                <span class="skill-title">Grammar</span>
+                <span class="skill-detail">CEFR grammar bank</span>
+              </button>
+              <div class="skill-item-dropdown">
+                <label class="skill-dropdown-label" for="tab-select-grammar">SECTION</label>
+                <div class="skill-dropdown-shell">
+                  <select class="skill-dropdown-select" id="tab-select-grammar" data-tab-select="grammar" aria-label="Grammar section"></select>
+                  <span class="skill-dropdown-arrow" aria-hidden="true">▾</span>
+                </div>
+              </div>
+            </div>
           </nav>
 
           <section class="activity-panel" aria-live="polite" aria-label="Selected practice activity">
             <div class="activity-topline">
-              <span class="deck-label"><span class="deck-icon" aria-hidden="true">↗</span><span id="activity-tag">SPEAKING · ROLE PLAY</span></span>
+              <span class="deck-label"><span class="deck-icon" id="activity-icon" aria-hidden="true">↗</span><span id="activity-tag">SPEAKING · ROLE PLAY</span></span>
               <span class="level-badge" id="activity-level">A1</span>
             </div>
             <p class="level-goal" id="level-goal"></p>
+
+            <div class="panel-section-bar">
+              <div class="panel-section-info">
+                <span class="section-kicker">SECTION / TOPIC</span>
+                <h3 class="panel-section-title" id="panel-section-title">Quick practice</h3>
+                <span class="panel-section-count" id="panel-section-count"></span>
+              </div>
+              <div class="panel-section-ctrl">
+                <label class="panel-select-label" for="panel-topic-select">Change section:</label>
+                <div class="panel-select-shell">
+                  <select class="panel-topic-select" id="panel-topic-select" aria-label="Choose section"></select>
+                  <span class="panel-select-arrow" aria-hidden="true">▾</span>
+                </div>
+              </div>
+            </div>
+
             <div id="activity-content"></div>
           </section>
         </div>
