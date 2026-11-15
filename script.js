@@ -368,6 +368,150 @@ const videoExercises = {
   ]
 };
 
+const additionalVideoExercises = {
+  A1: [
+    { title: 'A simple news update', description: 'Practise understanding a short statement about when something happens.', source: 'ORF-STYLE · ORIGINAL EXAMPLE', phrase: 'Heute kommt der Beitrag um acht.', meaning: 'The report is on at eight today.', example: 'Heute beginnt die Sendung um acht.', question: 'When is the report on?', options: ['Today at eight', 'Tomorrow at eight', 'Today at nine'], answer: 0, explanation: 'Heute means “today” and um acht means “at eight.” The conjugated verb kommt is in second position.' },
+    { title: 'Say hello informally', description: 'Notice the difference between a friendly greeting and a formal one.', source: 'EVERYDAY AUSTRIAN · ORIGINAL EXAMPLE', phrase: 'Servus, wie geht’s dir?', meaning: 'Hi, how are you?', example: 'Servus! Passt alles?', question: 'Which greeting is informal?', options: ['Servus', 'Grüß Gott, Frau Huber', 'Guten Tag'], answer: 0, explanation: 'Servus is an informal greeting used in Austria. The phrasing and pronunciation vary by region.' }
+  ],
+  A2: [
+    { title: 'Report what happened', description: 'Recognize a past event in a short news-style sentence.', source: 'ORF-STYLE · ORIGINAL EXAMPLE', phrase: 'Die Gemeinde hat eine neue Haltestelle eröffnet.', meaning: 'The municipality opened a new stop.', example: 'Die Stadt hat heute ein neues Museum eröffnet.', question: 'What happened?', options: ['A new stop was opened', 'A new road was closed', 'A meeting was postponed'], answer: 0, explanation: 'Hat eröffnet is the Perfekt form of eröffnen. The past participle appears at the end.' },
+    { title: 'Make a gentle suggestion', description: 'Listen for a common conversational way to propose doing something.', source: 'EVERYDAY AUSTRIAN · ORIGINAL EXAMPLE', phrase: 'Gehen wir noch auf einen Kaffee?', meaning: 'Shall we go for a coffee?', example: 'Gehen wir nachher noch kurz spazieren?', question: 'What is the speaker doing?', options: ['Making a suggestion', 'Giving a warning', 'Asking for directions'], answer: 0, explanation: 'A verb-first question with wir can make a friendly suggestion: “Shall we…?”' }
+  ],
+  B1: [
+    { title: 'Report a stated reason', description: 'Track how a news-style sentence connects a decision to its reason.', source: 'ORF-STYLE · ORIGINAL EXAMPLE', phrase: 'Die Stadt erweitert das Angebot, weil die Nachfrage gestiegen ist.', meaning: 'The city is expanding the service because demand has increased.', example: 'Die Linie fährt öfter, weil mehr Menschen den Bus nutzen.', question: 'Why is the service being expanded?', options: ['Demand has increased', 'The route is shorter', 'The buses are older'], answer: 0, explanation: 'Weil introduces a subordinate clause, so the conjugated verb ist comes at the end.' },
+    { title: 'Soften a suggestion with vielleicht', description: 'Notice how a small word can make a suggestion sound less forceful.', source: 'EVERYDAY AUSTRIAN · ORIGINAL EXAMPLE', phrase: 'Vielleicht fahren wir am Samstag an den See.', meaning: 'Maybe we’ll go to the lake on Saturday.', example: 'Vielleicht bleiben wir noch ein bissl.', question: 'What does vielleicht signal?', options: ['A tentative possibility', 'A firm instruction', 'A completed past event'], answer: 0, explanation: 'Vielleicht presents the idea as a possibility rather than a definite plan. A bissl is a colloquial form of ein bisschen.' }
+  ],
+  B2: [
+    { title: 'Separate a claim from its condition', description: 'Follow a conditional qualification in a formal news-style statement.', source: 'ORF-STYLE · ORIGINAL EXAMPLE', phrase: 'Die Maßnahme zeigt Wirkung, sofern sie konsequent umgesetzt wird.', meaning: 'The measure works, provided it is implemented consistently.', example: 'Der Plan kann helfen, sofern alle Beteiligten mitarbeiten.', question: 'What condition is given?', options: ['Consistent implementation', 'A lower budget', 'A shorter timetable'], answer: 0, explanation: 'Sofern means “provided that.” It introduces a subordinate clause, with wird at the end.' },
+    { title: 'Qualify a reaction with eh', description: 'In Austrian conversation, eh can signal that something is already understood or expected.', source: 'EVERYDAY AUSTRIAN · ORIGINAL EXAMPLE', phrase: 'Das weiß ich eh, aber ich frag trotzdem nach.', meaning: 'I know that already, but I’m asking anyway.', example: 'Wir haben eh noch genug Zeit.', question: 'What does eh convey here?', options: ['That something is already known or the case', 'That something is unlikely', 'That a question is being repeated'], answer: 0, explanation: 'Eh is a frequent Austrian conversational particle. Its exact nuance depends on context and intonation.' }
+  ],
+  C1: [
+    { title: 'Attribute information carefully', description: 'Identify how a formal report marks information as coming from a source.', source: 'ORF-STYLE · ORIGINAL EXAMPLE', phrase: 'Laut Ministerium soll die Förderung ausgeweitet werden.', meaning: 'According to the ministry, the funding is to be expanded.', example: 'Laut dem Bericht sollen die Gespräche nächste Woche beginnen.', question: 'What does laut Ministerium tell you?', options: ['Who the information is attributed to', 'When the funding was created', 'Whether the claim is disputed'], answer: 0, explanation: 'Laut plus dative attributes information to a source. Sollen can mark reported plans rather than a confirmed outcome.' },
+    { title: 'Concede a point with eh schon', description: 'Hear how a conversational speaker can acknowledge a point before adding a qualification.', source: 'EVERYDAY AUSTRIAN · ORIGINAL EXAMPLE', phrase: 'Das ist eh schon klar, aber die Umsetzung dauert.', meaning: 'That is already clear, but implementation takes time.', example: 'Das haben wir eh schon besprochen.', question: 'What is the speaker doing?', options: ['Acknowledging shared knowledge before qualifying it', 'Rejecting the earlier statement entirely', 'Reporting an uncertain rumour'], answer: 0, explanation: 'Eh schon can present something as already understood. Aber introduces the speaker’s qualification.' }
+  ],
+  C2: [
+    { title: 'Mark an inference as provisional', description: 'Notice how a formal statement avoids presenting an interpretation as certain.', source: 'ORF-STYLE · ORIGINAL EXAMPLE', phrase: 'Das Ergebnis lässt darauf schließen, dass weitere Gespräche nötig sind.', meaning: 'The result suggests that further talks are necessary.', example: 'Die Zahlen lassen darauf schließen, dass sich der Trend fortsetzt.', question: 'How strongly is the conclusion presented?', options: ['As an inference supported by the result', 'As an indisputable fact', 'As a direct quotation'], answer: 0, explanation: 'Lässt darauf schließen marks a conclusion drawn from evidence, leaving room for uncertainty.' },
+    { title: 'Use schon to concede before disagreeing', description: 'Interpret a conversational concession followed by a contrast.', source: 'EVERYDAY AUSTRIAN · ORIGINAL EXAMPLE', phrase: 'Das mag schon stimmen, nur hilft uns das jetzt wenig.', meaning: 'That may well be true, but it does little to help us now.', example: 'Das ist schon möglich, trotzdem sollten wir nachfragen.', question: 'What role does schon play?', options: ['It concedes a point before the contrast', 'It places the statement in the past', 'It turns the statement into a question'], answer: 0, explanation: 'In this pattern, schon helps acknowledge the other point; nur or trotzdem then introduces a qualification.' }
+  ]
+};
+
+Object.entries(additionalVideoExercises).forEach(([level, exercises]) => {
+  videoExercises[level].push(...exercises);
+});
+
+const dailyNewsCacheKey = 'servus-deutsch-daily-orf-news';
+
+function getLocalDateKey() {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Vienna', year: 'numeric', month: '2-digit', day: '2-digit'
+  }).formatToParts(new Date());
+  const dateParts = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+  return `${dateParts.year}-${dateParts.month}-${dateParts.day}`;
+}
+
+function plainFeedText(value) {
+  const parsed = new DOMParser().parseFromString(`<div>${value || ''}</div>`, 'text/html');
+  return parsed.body.textContent.replace(/\s+/g, ' ').trim();
+}
+
+function parseOrfFeed(xmlText) {
+  const xml = new DOMParser().parseFromString(xmlText, 'application/xml');
+  if (xml.querySelector('parsererror')) throw new Error('News feed could not be parsed');
+  return Array.from(xml.getElementsByTagName('*'))
+    .filter((node) => node.localName === 'item')
+    .map((node) => {
+      const values = Array.from(node.getElementsByTagName('*'));
+      const field = (name) => values.find((child) => child.localName === name)?.textContent.trim() || '';
+      return { title: field('title'), link: field('link'), description: field('description') || field('encoded') };
+    });
+}
+
+function isOrfStoryLink(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && (url.hostname === 'orf.at' || url.hostname.endsWith('.orf.at'));
+  } catch {
+    return false;
+  }
+}
+
+function makeDailyNewsExercise(item, items, dateKey) {
+  const quote = plainFeedText(item.description || item.content);
+  const sentenceEnd = quote.search(/[.!?](?=\s|$)/);
+  let excerpt = sentenceEnd >= 0 ? quote.slice(0, sentenceEnd + 1) : quote;
+  if (excerpt.length > 280) excerpt = `${excerpt.slice(0, 277).replace(/\s+\S*$/, '')}…`;
+  const otherHeadlines = items
+    .filter((candidate) => candidate.link !== item.link)
+    .map((candidate) => plainFeedText(candidate.title))
+    .filter(Boolean);
+  const options = [plainFeedText(item.title), ...otherHeadlines.slice(0, 2)];
+  const daySeed = Number(dateKey.replaceAll('-', ''));
+  const orderedOptions = options
+    .map((option, index) => ({ option, rank: (index * 7 + daySeed) % 11 }))
+    .sort((a, b) => a.rank - b.rank)
+    .map(({ option }) => option);
+  return {
+    dailyNews: true,
+    title: 'Today’s news catch',
+    description: `A fresh excerpt from ORF news · ${dateKey}`,
+    source: 'ORF NEWS · VERBATIM RSS EXCERPT',
+    phrase: excerpt,
+    meaning: 'Which headline matches this excerpt?',
+    example: plainFeedText(item.title),
+    question: 'Which ORF story is this excerpt from?',
+    options: orderedOptions,
+    answer: orderedOptions.indexOf(plainFeedText(item.title)),
+    explanation: `This text comes from ORF’s news feed entry for “${plainFeedText(item.title)}”. Open the linked story for the full context.`,
+    link: item.link
+  };
+}
+
+function installDailyNewsExercise(exercise) {
+  Object.values(videoExercises).forEach((exercises) => {
+    exercises.splice(0, exercises.length, ...exercises.filter((entry) => !entry.dailyNews));
+    exercises.unshift(exercise);
+  });
+  if (currentVideoSource === 'orf') renderVideoExercise();
+}
+
+async function loadDailyNewsExercise() {
+  const dateKey = getLocalDateKey();
+  const status = document.querySelector('#daily-news-status');
+  let recentLinks = [];
+  try {
+    const cached = JSON.parse(localStorage.getItem(dailyNewsCacheKey) || 'null');
+    if (Array.isArray(cached?.recentLinks)) recentLinks = cached.recentLinks;
+    if (cached?.dateKey === dateKey && cached.exercise) {
+      installDailyNewsExercise(cached.exercise);
+      return;
+    }
+  } catch {
+    try { localStorage.removeItem(dailyNewsCacheKey); } catch { /* Storage may be unavailable. */ }
+  }
+
+  try {
+    const response = await fetch('https://proxy.cors.dev/https://rss.orf.at/news.xml');
+    if (!response.ok) throw new Error('News feed request failed');
+    const items = parseOrfFeed(await response.text())
+      .map((item) => ({ ...item, description: plainFeedText(item.description) }))
+    .filter((item) => isOrfStoryLink(item.link) && item.title && item.description.length >= 45);
+    if (!items.length) throw new Error('No usable news excerpts were found');
+    const daySeed = Number(dateKey.replaceAll('-', ''));
+    const startIndex = daySeed % items.length;
+    const unseenOffset = Array.from({ length: items.length }, (_, offset) => offset)
+      .find((offset) => !recentLinks.includes(items[(startIndex + offset) % items.length].link));
+    const chosen = items[(startIndex + (unseenOffset ?? 0)) % items.length];
+    const exercise = makeDailyNewsExercise(chosen, items, dateKey);
+    if (!exercise.phrase || exercise.options.length < 2 || exercise.answer < 0) throw new Error('The news excerpt could not form an exercise');
+    recentLinks = [chosen.link, ...recentLinks.filter((link) => link !== chosen.link)].slice(0, 30);
+    localStorage.setItem(dailyNewsCacheKey, JSON.stringify({ dateKey, exercise, recentLinks }));
+    installDailyNewsExercise(exercise);
+    if (status) status.textContent = 'Today’s excerpt uses ORF’s news feed text and links to the original story.';
+  } catch {
+    if (status) status.textContent = 'Today’s live news exercise could not load. Try again later; the regular practice phrases are still available.';
+  }
+}
+
 const grammarActivities = {
   A1: [
     { title: 'Main clause word order', description: 'A1 grammar · Build a simple sentence with the conjugated verb in second position.', source: 'A1 · CORE GRAMMAR', phrase: 'Heute beginnt die Sendung um acht.', meaning: 'Today the programme starts at eight.', example: 'Am Abend beginnt der Film.', question: 'Which sentence has correct verb-second order?', options: ['Heute die Sendung beginnt um acht.', 'Heute beginnt die Sendung um acht.', 'Heute um acht die Sendung beginnt.'], answer: 1, explanation: 'In a main clause the conjugated verb is in position two. The first position can be a time phrase: Heute beginnt …' },
@@ -429,6 +573,7 @@ const panelSectionCount = document.querySelector('#panel-section-count');
 const panelTopicSelect = document.querySelector('#panel-topic-select');
 const activityContent = document.querySelector('#activity-content');
 const labChoices = document.querySelector('#lab-choices');
+const labStoryLink = document.querySelector('#lab-story-link');
 const labStatus = document.querySelector('#lab-status');
 const labExplanation = document.querySelector('#lab-explanation');
 
@@ -493,7 +638,7 @@ function renderTopicExercise(skill, unit, example, unitIndex, exerciseIndex) {
     return `
       <article class="course-exercise" data-course-card data-unit="${unitIndex}" data-exercise="${exerciseIndex}">
         <p class="exercise-label">EXERCISE ${exerciseIndex + 1} · SAY IT</p>
-        <p class="exercise-prompt">Say this idea in Austrian German: <strong>${example.english}</strong></p>
+        <p class="exercise-prompt"><strong>${example.english}</strong></p>
         <textarea class="answer-field course-response" data-topic-response lang="de-AT" placeholder="Speak, or jot down your response…"></textarea>
         <div class="activity-actions">
           <button class="primary-action" type="button" data-course-action="speak" data-unit="${unitIndex}" data-exercise="${exerciseIndex}"><span aria-hidden="true">◉</span> Start speaking</button>
@@ -916,6 +1061,10 @@ function renderVideoExercise() {
   document.querySelector('#lab-phrase').textContent = exercise.phrase;
   document.querySelector('#lab-meaning').textContent = exercise.meaning;
   document.querySelector('#lab-example').textContent = exercise.example;
+  if (labStoryLink) {
+    labStoryLink.hidden = !exercise.link;
+    if (exercise.link) labStoryLink.href = exercise.link;
+  }
   document.querySelector('#lab-explanation-text').textContent = exercise.explanation;
   labChoices.innerHTML = renderChoices(exercise, 'lab-choice');
   labStatus.textContent = '';
@@ -1310,3 +1459,4 @@ document.querySelector('#video-lab')?.addEventListener('click', (event) => {
 levelCaption.textContent = levelInfo[currentLevel].label;
 renderActivity();
 renderVideoExercise();
+loadDailyNewsExercise();

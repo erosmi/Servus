@@ -245,6 +245,8 @@ h1 span { color: var(--green); font-style: italic; }
 .video-link { grid-column: 1 / -1; width: 100%; color: var(--green); background: #f3f6f0; border: 1px solid #dce4da; white-space: nowrap; }
 .video-link:hover { background: #eaf1e9; }
 .video-note { margin: 9px 0 0; color: #8a948a; font-size: 9px; line-height: 1.6; }
+.video-note a, .lab-story-link { color: var(--green); }
+.lab-story-link { margin-top: 10px; font-size: 10px; font-weight: 600; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .lab-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 10px; }
 .lab-source-tabs { display: flex; flex-wrap: wrap; gap: 6px; }
 .lab-source-button { min-height: 36px; padding: 0 12px; color: #647369; background: transparent; border: 1px solid #dce4da; border-radius: 3px; font-size: 10px; font-weight: 600; }
