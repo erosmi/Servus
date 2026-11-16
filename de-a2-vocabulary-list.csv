@@ -1,0 +1,1001 @@
+rank,word,part_of_speech,meaning,cefr
+1001,Streit,noun,"quarrel, dispute, fight, argument",A2
+1002,wütend,adverb,"angrily, furiously",A2
+1003,schieben,verb,to push; to shove,A2
+1004,geheim,adjective,"secret, clandestine",A2
+1005,bereiten,verb,"to prepare, to make",A2
+1006,drinnen,adverb,inside (a room),A2
+1007,mitbringen,verb,"to bring (along, with), to accompany",A2
+1008,Tante,noun,aunt,A2
+1009,trauen,verb,to trust,A2
+1010,Beste,noun,best (female person),A2
+1011,hi,interjection,hi,A2
+1012,gewöhnlich,adverb,usually,A2
+1013,vergehen,verb,"to pass, to elapse",A2
+1014,ebenso,adverb,"equally, as much",A2
+1015,beenden,verb,"to finish, to complete, to (bring/put to an) end",A2
+1016,Umstand,noun,circumstance (an event; a fact; a particular incident),A2
+1017,Erfolg,noun,success,A2
+1018,ernsthaft,adverb,seriously,A2
+1019,schade,adjective,"a pity, a shame; bummer; unfortunate; disappointing",A2
+1020,aufgeben,verb,to give up on (one's efforts),A2
+1021,kochen,verb,"to cook, to prepare food (chiefly hot food for lunch or supper)",A2
+1022,rauchen,verb,"to smoke, give off smoke",A2
+1023,Bescheid,noun,"notification, information",A2
+1024,Hunger,noun,hunger,A2
+1025,Treppe,noun,stairs,A2
+1026,Vermögen,noun,"ability, capacity",A2
+1027,dadurch,adverb,"through it, through that",A2
+1028,zuletzt,adverb,finally; lastly; in the end,A2
+1029,teuer,adjective,"expensive, dear (high in price)",A2
+1030,rühren,verb,"to stir, to mix (a liquid or powder as in cooking)",A2
+1031,Großmutter,noun,grandmother,A2
+1032,herrlich,adjective,fantastic; marvelous; wonderful; splendid; glorious; lovely,A2
+1033,Verzeihung,noun,forgiveness,A2
+1034,Regel,noun,rule,A2
+1035,dennoch,adverb,"anyhow, however",A2
+1036,lauter,adverb,"in a sincere, honorable, correct manner; with integrity",A2
+1037,blöd,adjective,"stupid, dim-witted",A2
+1038,Nachbar,noun,neighbour,A2
+1039,gering,adjective,"little, low",A2
+1040,irgendetwas,pronoun,anything,A2
+1041,Mond,noun,moon (a natural satellite that is orbiting its corresponding planet),A2
+1042,versetzen,verb,"to move, displace, especially something heavy or fixed",A2
+1043,fressen,verb,to eat; to feed on; to devour,A2
+1044,Braut,noun,bride; a woman taking part in a marriage,A2
+1045,Charlotte,noun,charlotte (dessert consisting of sponge cake filled with fruit),A2
+1046,befreien,verb,"to free (make free), to liberate",A2
+1047,Zweifel,noun,doubt,A2
+1048,Boot,noun,boat,A2
+1049,Interesse,noun,interest (attention and concern),A2
+1050,überlassen,verb,to relinquish something (definitely or temporarily) and leave it to someone else,A2
+1051,vermissen,verb,to miss (to feel the absence of someone or something),A2
+1052,Nachmittag,noun,afternoon (part of the day from about 2 p.m. to about 6 p.m.),A2
+1053,enden,verb,to end,A2
+1054,irren,verb,"to wander (to move around aimlessly, being unable to find where one wants to go)",A2
+1055,hundert,number,one hundred,A2
+1056,Gnade,noun,"grace, mercy, graciousness",A2
+1057,schützen,verb,to defend; to protect; to shelter; to guard,A2
+1058,Feld,noun,"field (plot of open land, especially one used to grow crops)",A2
+1059,sauber,adjective,clean,A2
+1060,Grab,noun,grave,A2
+1061,Entscheidung,noun,decision,A2
+1062,streng,adverb,"strictly, very much",A2
+1063,desto,conjunction,the (forming the parallel comparative with je),A2
+1064,Folge,noun,sequence,A2
+1065,Dach,noun,roof,A2
+1066,schämen,verb,"to be ashamed or (less often) embarrassed, bashful",A2
+1067,fordern,verb,"to demand, ask",A2
+1068,gnädig,adjective,gracious,A2
+1069,ergreifen,verb,"to seize, capture",A2
+1070,Prozess,noun,lawsuit,A2
+1071,verbergen,verb,"to hide, conceal from view, keep secret",A2
+1072,verbrennen,verb,"to burn (to cause to be consumed by fire or flames), to incinerate, to combust",A2
+1073,Mittel,noun,"agent, appliance",A2
+1074,Vorsicht,noun,"caution, cautiousness",A2
+1075,herkommen,verb,"to come over, come here (towards the speaker)",A2
+1076,warnen,verb,"to warn, to caution, to admonish",A2
+1077,sammeln,verb,to gather; to assemble; to collect,A2
+1078,eng,adjective,"narrow, tight",A2
+1079,Schulden,noun,debt,A2
+1080,schwierig,adjective,"difficult, hard, challenging, tough",A2
+1081,link,adjective,left,A2
+1082,entschieden,adverb,"firmly, decidedly, determinedly, boldly, ambitiously",A2
+1083,davor,adverb,in front of that/it,A2
+1084,einzeln,adjective,single; lone,A2
+1085,Frühstück,noun,breakfast,A2
+1086,Kunde,noun,"customer, patron, client",A2
+1087,nachher,adverb,"in a short while (in the near future, but not more than a few hours)",A2
+1088,bestätigen,verb,"to confirm, to corroborate",A2
+1089,Verbrechen,noun,"a felony, indictable offence",A2
+1090,schwimmen,verb,to swim (to use swimming motions to move in the water),A2
+1091,weisen,verb,to indicate; to show,A2
+1092,Senator,noun,senator,A2
+1093,verändert,adjective,"changed, altered",A2
+1094,verheiratet,adjective,married (in a state of marriage; having a wife or a husband),A2
+1095,Prinzessin,noun,"princess (female member of a royal family other than a queen, especially a daughter or granddaughter)",A2
+1096,Mühe,noun,"effort, difficulty",A2
+1097,fürs,contraction,"für + das, for the",A2
+1098,bedenken,verb,"to consider, bethink",A2
+1099,Rock,noun,skirt (garment),A2
+1100,schätzen,verb,to estimate; to guess; to suppose; to assume,A2
+1101,Güte,noun,"kindness, clemency",A2
+1102,heftig,adjective,"fierce, heavy, vehement, severe, violent",A2
+1103,ungefähr,adverb,about,A2
+1104,waschen,verb,to wash,A2
+1105,Zufall,noun,"chance, coincidence, randomness",A2
+1106,Band,noun,"tape, ribbon",A2
+1107,Gutes,noun,something good,A2
+1108,zufällig,adverb,accidentally,A2
+1109,Staat,noun,"country, state (politically constituted legal person wielding absolute power of a population and territory)",A2
+1110,Szene,noun,scene; tableau,A2
+1111,Kuss,noun,kiss,A2
+1112,stöhnen,verb,"to moan, to groan, to grunt (to vocalize in a low, unarticulated manner, typically as an extension of exhaling)",A2
+1113,ertragen,verb,"to bear, to stand, to endure, to take, to suffer, to tolerate, to handle",A2
+1114,unbekannt,adjective,"unknown, unbeknownst",A2
+1115,Grenze,noun,border,A2
+1116,interessiert,adjective,interested,A2
+1117,lauten,verb,"to be, to read (have a certain content or wording)",A2
+1118,hell,adjective,"clear, bright, light",A2
+1119,betrügen,verb,to deceive (usually deliberately),A2
+1120,Form,noun,shape,A2
+1121,Sturm,noun,"A strong, blustery wind; gust; gale; squall",A2
+1122,vorwärts,adverb,"forwards, forward; onwards, onward",A2
+1123,Hälfte,noun,half; fifty percent of something,A2
+1124,Fahrt,noun,drive,A2
+1125,golden,adjective,golden; gold (made of gold),A2
+1126,egal,adverb,no matter,A2
+1127,Leib,noun,by semantic narrowing more specifically,A2
+1128,gewöhnen,verb,"to accustom, inure, make accustomed",A2
+1129,Spiegel,noun,"mirror (smooth surface, usually made of glass with reflective material painted on the underside, that reflects light)",A2
+1130,Inneres,noun,"inside, interior; bowels, innards",A2
+1131,Tee,noun,"tea (drink made by infusing parts of a plant, especially leaves or buds of Camellia sinensis, in water)",A2
+1132,Loch,noun,hole; perforation,A2
+1133,zuvor,adverb,"before, previously",A2
+1134,Achtung,noun,attention,A2
+1135,wechseln,verb,"to change, to exchange",A2
+1136,Chef,noun,"boss, chief",A2
+1137,schnappen,verb,to snap (with one’s mouth),A2
+1138,eh,particle,"anyway, in any case",A2
+1139,verhaften,verb,"to stop moving and instead stick, or make or become bound (more or less literally or figuratively)",A2
+1140,beeilen,verb,"to hurry, to hasten, to rush",A2
+1141,nachts,adverb,"at night, nights",A2
+1142,Oberst,noun,colonel,A2
+1143,Schwein,noun,"swine, pig",A2
+1144,unbedingt,adverb,"absolutely, definitely",A2
+1145,Absicht,noun,intention,A2
+1146,einst,adverb,"once, formerly (a long time ago)",A2
+1147,soweit,conjunction,as far as (in the scope in which something holds),A2
+1148,Fisch,noun,fish (cold-blooded vertebrates living in water),A2
+1149,Not,noun,"need, imminence",A2
+1150,vorbereiten,verb,to prepare,A2
+1151,Kreis,noun,circle,A2
+1152,angenehm,adjective,"pleasant, pleasing",A2
+1153,Bauer,noun,farmer (male or of unspecified gender),A2
+1154,überrascht,adjective,surprised,A2
+1155,entlang,preposition,along; indicates location or movement,A2
+1156,falls,conjunction,"if, in the event that",A2
+1157,ruhen,verb,to rest; to sleep,A2
+1158,Haut,noun,"skin, hide of a person, animal or (part of a) plant",A2
+1159,jedoch,conjunction,but,A2
+1160,Lippe,noun,lip,A2
+1161,bewahren,verb,"to keep, to preserve (to maintain the condition of)",A2
+1162,tränen,verb,"to water (due to irritation, pain, etc.)",A2
+1163,womit,adverb,"with what, what…with",A2
+1164,wahnsinnig,adverb,"incredibly, awfully",A2
+1165,zuhören,verb,to listen,A2
+1166,brav,adjective,"good, well-behaved or reliable, obedient",A2
+1167,senden,verb,to broadcast; to transmit,A2
+1168,Liebling,noun,"darling, (my) dear",A2
+1169,bilden,verb,"to form, to train",A2
+1170,Pflicht,noun,duty,A2
+1171,Schild,noun,"shield, buckler (defensive weapon)",A2
+1172,edel,adjective,noble (having a noble character),A2
+1173,Brot,noun,bread,A2
+1174,Aufgabe,noun,"task, job",A2
+1175,geändert,adjective,changed,A2
+1176,Bericht,noun,"report, account, news story",A2
+1177,bessern,verb,"to improve, to better",A2
+1178,Schuss,noun,shot,A2
+1179,Werk,noun,"work, achievement (the result of working)",A2
+1180,Sprache,noun,"language (body of words, and set of methods of combining them)",A2
+1181,Sonntag,noun,Sunday,A2
+1182,Erfahrung,noun,experience (event through which empirical knowledge is gained),A2
+1183,Schönheit,noun,"beauty, beautifulness",A2
+1184,gelingen,verb,"to turn out well, to work out, to go smoothly, to succeed, to come off",A2
+1185,hingehen,verb,"to go (elsewhere, to somewhere)",A2
+1186,begehen,verb,"to commit, perpetrate (a crime, an offense)",A2
+1187,offenbar,adverb,"apparently, evidently; obviously",A2
+1188,sanft,adjective,gentle,A2
+1189,entfernen,verb,to remove,A2
+1190,Eindruck,noun,impression,A2
+1191,englisch,adjective,English,A2
+1192,Haufen,noun,"heap, hive, pile",A2
+1193,Brücke,noun,bridge,A2
+1194,Heiliger,noun,saint (male or of unspecified gender),A2
+1195,Wunde,noun,"sore, wound",A2
+1196,wofür,adverb,"for what, wherefore, why",A2
+1197,Strand,noun,beach,A2
+1198,reisen,verb,to travel,A2
+1199,malen,verb,to paint (do paintwork),A2
+1200,Sommer,noun,summer,A2
+1201,Direktor,noun,principal (administrator of a school),A2
+1202,verletzt,adjective,"hurt, injured",A2
+1203,verwandeln,verb,"to turn, to change, to transform",A2
+1204,Rache,noun,revenge; vengeance,A2
+1205,Narr,noun,"jester, fool",A2
+1206,Stock,noun,"stick (solid, wooden, broken off twig or small branch mostly clear of leaves or smaller twigs)",A2
+1207,klingeln,verb,to ring (to produce the sound of a bell or a similar sound),A2
+1208,Sünde,noun,sin,A2
+1209,unterbrechen,verb,to interrupt,A2
+1210,Reihe,noun,row,A2
+1211,verwenden,verb,"to use, to employ, to apply",A2
+1212,Höhe,noun,"height, altitude",A2
+1213,General,noun,general (officer in any general rank),A2
+1214,dringend,adjective,urgent,A2
+1215,folgend,adjective,"following, subsequent",A2
+1216,unglücklich,adverb,"unfortunately, unhappily, unluckily, haplessly, inartfully",A2
+1217,schreiten,verb,"to stride; to step, to proceed",A2
+1218,dichten,verb,"to compose (a text, almost always poetry)",A2
+1219,Gebäude,noun,"building, edifice, structure",A2
+1220,Christ,noun,a Christian,A2
+1221,hässlich,adjective,ugly,A2
+1222,Neues,noun,something new,A2
+1223,hoffentlich,adverb,hopefully (it is hoped that),A2
+1224,blind,adjective,blind,A2
+1225,flüstern,verb,to whisper,A2
+1226,studieren,verb,to study at university or college level; to be a student (of),A2
+1227,Decke,noun,"any cloth or cushion used as a covering; a tablecloth, blanket, quilt, duvet, etc.",A2
+1228,Geliebter,noun,"lover, romantic partner (male or of unspecified gender; now usually implying an affair, otherwise somewhat poetic)",A2
+1229,Wolf,noun,wolf,A2
+1230,pflegen,verb,providing care or service for someone/something,A2
+1231,Fleisch,noun,flesh,A2
+1232,geraten,verb,to turn out; to succeed; to thrive,A2
+1233,Bürgermeister,noun,"mayor (leader of a city, male or unspecified sex)",A2
+1234,Teller,noun,"plate, dish",A2
+1235,verderben,verb,to deprive (someone) of (something); to rob (someone) of (some feeling),A2
+1236,verliebt,adjective,"in love, enamored",A2
+1237,Sieg,noun,victory,A2
+1238,Vorstellung,noun,"idea, image, representation (the transcript, image, or picture of a visible object that is formed by the mind)",A2
+1239,Wahnsinn,noun,"insanity, madness",A2
+1240,Überraschung,noun,surprise,A2
+1241,nähern,verb,"to approach, to come near",A2
+1242,runter,adverb,"down, down here, downstairs (towards the speaker)",A2
+1243,Sitz,noun,seat,A2
+1244,Mitte,noun,middle,A2
+1245,streiten,verb,to argue; to fight; to quarrel,A2
+1246,jawohl,interjection,yes,A2
+1247,untersuchen,verb,"to examine, investigate (inspect or study carefully in order to reach a conclusion)",A2
+1248,scheiden,verb,to dissolve (a marriage); to divorce (a couple),A2
+1249,sinken,verb,to sink; to submerge; to set; to fall from the sky,A2
+1250,willen,postposition,only used in um … willen,A2
+1251,Park,noun,"park (piece of ground in or near a city or town, enclosed and kept for ornament and recreation)",A2
+1252,Träume,noun,dreams,A2
+1253,Aufmerksamkeit,noun,"attention, mindfulness, attentiveness",A2
+1254,Hauptmann,noun,captain (male [also female] or of unspecified sex; cf. Herr / Frau Hauptmann),A2
+1255,Geräusch,noun,"noise, sound",A2
+1256,fett,adjective,fat,A2
+1257,üben,verb,"to practice, to drill, to train",A2
+1258,entwickeln,verb,"to develop, to gain (strength, a skill, a talent, an ability, etc.; slowly, often by natural growth or practice)",A2
+1259,drängen,verb,"to push, press (living beings, vehicles etc. in some direction)",A2
+1260,wecken,verb,"to wake, to wake up",A2
+1261,Fürst,noun,prince (sovereign prince),A2
+1262,schleichen,verb,"to move in a quiet and inconspicuous manner, hence often slowly and/or ducked: to crawl, to sneak, to steal",A2
+1263,dankbar,adjective,"grateful, thankful",A2
+1264,Lieber,noun,dear,A2
+1265,dorthin,adverb,"there (to that place), thither",A2
+1266,Hose,noun,trousers,A2
+1267,Lager,noun,"place where one sleeps, such as a bed or a spot in a barn, etc.",A2
+1268,angehen,verb,"to concern, regard",A2
+1269,peinlich,adjective,"woeful, hurtful",A2
+1270,Elend,noun,misery,A2
+1271,zittern,verb,"to shiver, to tremble, to vibrate",A2
+1272,Ritter,noun,knight,A2
+1273,klappen,verb,"to clap (make a soft clapping sound, particularly of something being closed)",A2
+1274,Auftritt,noun,"appearance, look, comportment, behavior",A2
+1275,gemein,adjective,"mean, nasty, wicked",A2
+1276,wunderschön,adjective,"gorgeous, very beautiful",A2
+1277,erledigt,adjective,completed,A2
+1278,Kollege,noun,"colleague, coworker, workmate, fellow worker or member",A2
+1279,Tanz,noun,dance,A2
+1280,heimlich,adjective,"secret, clandestine (done or kept in secret)",A2
+1281,Kugel,noun,"a ball, usually solid",A2
+1282,Mantel,noun,"coat, overcoat (long jacket that covers at least part of the thighs)",A2
+1283,Schau,noun,show,A2
+1284,Donnerstag,noun,Thursday,A2
+1285,Krankheit,noun,"sickness, illness",A2
+1286,Geburtstag,noun,birthday,A2
+1287,treu,adjective,loyal; faithful; true,A2
+1288,versagen,verb,"to fail, to give out, to break down",A2
+1289,nackt,adjective,naked,A2
+1290,entweder,conjunction,either (only with oder),A2
+1291,Engländer,noun,"an English person (male or of unspecified gender), an Englander; an Englishman",A2
+1292,Offizier,noun,commissioned officer (soldier from the rank of lieutenant upwards),A2
+1293,vorhin,adverb,"earlier (a short time ago, typically between minutes and a few hours ago)",A2
+1294,Auftrag,noun,"assignment, job, mission",A2
+1295,Insel,noun,"an island, an isle",A2
+1296,heilen,verb,"to heal (an injury, sickness, etc.)",A2
+1297,Diener,noun,servant,A2
+1298,Vergangenheit,noun,the past (time),A2
+1299,öffentlich,adjective,public,A2
+1300,Regierung,noun,government/administration,A2
+1301,Hexe,noun,"witch, sorceress",A2
+1302,erwischen,verb,to catch (often referring to catching someone in an act of wrongdoing),A2
+1303,nervös,adjective,nervous (anxious),A2
+1304,irgend,adverb,at all (regarding possibility/ability),A2
+1305,gestehen,verb,"to confess, to admit (to a mistake, misdeed, something embarrassing); to make known",A2
+1306,vernichten,verb,to destroy; to ruin; to wreck,A2
+1307,Faust,noun,fist,A2
+1308,neun,number,nine (numerical value represented by the Arabic numeral 9; or this many dots: •••••••••),A2
+1309,Ball,noun,"ball (round or roundish object, most commonly used in games)",A2
+1310,gelb,adjective,yellow,A2
+1311,Scherz,noun,joke,A2
+1312,heulen,verb,"to howl, to whine (make a loud, usually high-pitched sound)",A2
+1313,täglich,adverb,"every day, quotidianly",A2
+1314,blicken,verb,to look (usually in a certain direction toward something),A2
+1315,umsonst,adverb,"free of charge, gratis",A2
+1316,Blatt,noun,leaf (green and flat organ of a plant),A2
+1317,verflucht,adjective,cursed,A2
+1318,bedienen,verb,to serve,A2
+1319,Falle,noun,"trap, snare",A2
+1320,Hütte,noun,"hut, cabin, shack, cottage (small house, typically built of light materials rather than stone)",A2
+1321,Miss,noun,Miss (form of address),A2
+1322,besprechen,verb,to discuss (to converse or debate concerning a particular topic),A2
+1323,Zunge,noun,tongue (organ in the mouth),A2
+1324,Winter,noun,winter,A2
+1325,Unsinn,noun,nonsense,A2
+1326,zwölf,number,twelve,A2
+1327,erschießen,verb,to shoot dead,A2
+1328,Druck,noun,pressure,A2
+1329,aussprechen,verb,"to pronounce (sound a word, give it a pronunciation)",A2
+1330,Theater,noun,theater (a place or building consisting of a stage and seats),A2
+1331,Freundschaft,noun,friendship,A2
+1332,entlassen,verb,to release,A2
+1333,entgegen,adverb,against,A2
+1334,streichen,verb,to stroke,A2
+1335,Respekt,noun,"respect, regard, reverence",A2
+1336,unterscheiden,verb,"to distinguish, differentiate",A2
+1337,achten,verb,"to care about, to pay attention to",A2
+1338,Ross,noun,horse,A2
+1339,seitdem,conjunction,"since, ever since",A2
+1340,verboten,adjective,"forbidden, prohibited, banned",A2
+1341,voraus,adverb,"in front, ahead",A2
+1342,worüber,adverb,generally corresponding to über was; mainly (over what),A2
+1343,überleben,verb,to survive,A2
+1344,soviel,conjunction,"as far as, so far as",A2
+1345,Zeuge,noun,"witness, wit (slang), deponent, attestor (attester), voucher (male or of unspecified gender)",A2
+1346,Mille,noun,"synonym of tausend (“thousand”), almost exclusively used of money: grand",A2
+1347,Maul,noun,mouth of an animal,A2
+1348,drohen,verb,to threaten,A2
+1349,vieles,pronoun,"much, many things",A2
+1350,Schwierigkeit,noun,"difficulty, problem",A2
+1351,Erklärung,noun,explanation,A2
+1352,braun,adjective,brown,A2
+1353,Jude,noun,Jew,A2
+1354,Kuh,noun,cow (female bovine animal at or near adulthood),A2
+1355,normal,adverb,"ordinarily, normally, in a normal fashion",A2
+1356,vernünftig,adjective,"reasonable, sensible",A2
+1357,beißen,verb,to bite,A2
+1358,Gabe,noun,"gift, present, donation, alms",A2
+1359,begrüßen,verb,to welcome,A2
+1360,einverstanden,adjective,"in agreement, agreeing",A2
+1361,sauer,adjective,sour; acid; acidic,A2
+1362,Bart,noun,beard,A2
+1363,sichern,verb,to secure,A2
+1364,rechnen,verb,"to count, reckon, calculate, compute",A2
+1365,ungewöhnlich,adverb,unusually,A2
+1366,bewusst,adjective,"conscious, aware",A2
+1367,inzwischen,adverb,"since then, by now, in the meantime (contrasting between the current state and a known past state)",A2
+1368,herrschen,verb,"to rule, to reign, to have dominion",A2
+1369,Sack,noun,"sack (large bag, especially one made of fabric)",A2
+1370,eilig,adjective,"speedy, hasty",A2
+1371,täuschen,verb,to deceive,A2
+1372,Strom,noun,a large river,A2
+1373,betreten,verb,"to enter, to go or come into",A2
+1374,prüfen,verb,"to check, test, examine",A2
+1375,immerhin,adverb,after all (explaining another statement),A2
+1376,anbieten,verb,"to offer, to provide",A2
+1377,bücken,verb,"to bend down, to stoop",A2
+1378,erfreuen,verb,to please; to make happy,A2
+1379,Leidenschaft,noun,passion (powerful emotion),A2
+1380,herausfinden,verb,to find out,A2
+1381,Maschine,noun,machine,A2
+1382,Wetter,noun,weather,A2
+1383,weich,adjective,soft,A2
+1384,doppelt,adjective,double (made up of two matching or complementary elements),A2
+1385,Dieb,noun,thief (male or of unspecified gender),A2
+1386,versichern,verb,to insure (to provide for compensation if some specified risk occurs),A2
+1387,Kiste,noun,"chest, box",A2
+1388,verbinden,verb,"to join, to combine, to connect, to interlink",A2
+1389,Mittag,noun,"noon, midday, late morning, early afternoon (time from about 11 a.m. to 2 p.m)",A2
+1390,Angelegenheit,noun,"matter, issue, affair",A2
+1391,lehnen,verb,to lean,A2
+1392,Rom,noun,"Rom (member of the Roma people), Romani",A2
+1393,beschreiben,verb,to describe,A2
+1394,Weihnachten,noun,Christmas,A2
+1395,begraben,verb,to bury (also figuratively),A2
+1396,Ausdruck,noun,"expression, term",A2
+1397,wundern,verb,"to surprise, to astonish (of sights, behaviors, outcomes)",A2
+1398,erledigen,verb,"to finish, to finalize, to complete, to see to, to handle with the result of completed work",A2
+1399,erwähnen,verb,to mention [with accusative or (archaic) genitive ‘something’] (speak of something),A2
+1400,Stimmung,noun,mood (emotional state),A2
+1401,Wache,noun,"wake, vigil",A2
+1402,anhalten,verb,to stop (cease moving),A2
+1403,spinnen,verb,"to spin (a thread, a web, a cocoon, etc.)",A2
+1404,Club,noun,club (association of members),A2
+1405,einfallen,verb,"to occur (to someone), to come (to someone); to come to mind [with dative ‘to someone’]",A2
+1406,Gruppe,noun,group,A2
+1407,weshalb,adverb,why,A2
+1408,beleidigen,verb,"to offend, to insult, to annoy",A2
+1409,Unrecht,noun,injustice,A2
+1410,Dämon,noun,demon,A2
+1411,starren,verb,"to stare, to gaze",A2
+1412,fließen,verb,to flow,A2
+1413,Jungfrau,noun,"virgin (person, especially female, who has never had sexual intercourse)",A2
+1414,Vorteil,noun,"advantage, plus, benefit, perk (of a job)",A2
+1415,Schutz,noun,protection,A2
+1416,brach,adjective,fallow,A2
+1417,verhindern,verb,"to prevent, to inhibit, to keep (something) from happening.",A2
+1418,liefern,verb,"to supply, provide",A2
+1419,Gras,noun,grass (plant),A2
+1420,durcheinander,adjective,"disordered, confused",A2
+1421,Kapitel,noun,chapter (section of a text),A2
+1422,französisch,adjective,French,A2
+1423,tja,interjection,"well, hmm",A2
+1424,matt,adjective,dull (not shiny),A2
+1425,Eis,noun,ice,A2
+1426,festhalten,verb,to hold on (to) (to keep another object or person in place),A2
+1427,betrunken,adjective,"drunk, inebriated",A2
+1428,fischen,verb,to fish,A2
+1429,neugierig,adverb,"inquisitively, full of curiosity",A2
+1430,hinterlassen,verb,"to leave, to leave behind (after leaving a location)",A2
+1431,Jäger,noun,hunter (male or of unspecified sex),A2
+1432,schlau,adjective,clever in a way that enables one to achieve one's goals; slightly sly or cunning,A2
+1433,unheimlich,adverb,"extremely, incredibly; a strong intensifier",A2
+1434,zusehen,verb,to watch,A2
+1435,witzig,adjective,"funny, humorous, witty",A2
+1436,Krankenhaus,noun,hospital,A2
+1437,vermutlich,adverb,presumably,A2
+1438,stets,adverb,always; constantly; the whole time (very often),A2
+1439,Milch,noun,milk (white liquid produced by female mammals for their young to consume),A2
+1440,ausziehen,verb,"to move out, to vacate",A2
+1441,welch,determiner,what,A2
+1442,ahnen,verb,"to suspect, guess",A2
+1443,Flucht,noun,"escape, flight (act of fleeing)",A2
+1444,wundervoll,adjective,wonderful,A2
+1445,probieren,verb,to try,A2
+1446,Unglück,noun,unhappiness; sorrow,A2
+1447,Gewissen,noun,conscience (moral sense or faculty),A2
+1448,aufwachen,verb,"to awake, to wake up",A2
+1449,ermordet,adjective,murdered,A2
+1450,abholen,verb,"to collect, pick up or fetch someone or something",A2
+1451,Tatsache,noun,fact (a true observation),A2
+1452,Grad,noun,degree,A2
+1453,Huhn,noun,chicken,A2
+1454,tauchen,verb,to dive,A2
+1455,vierte,adjective,fourth,A2
+1456,Verhältnis,noun,"relation, ratio",A2
+1457,betrachten,verb,"to look at, to consider, to behold",A2
+1458,Mädel,noun,girl (especially member of a group of female friends),A2
+1459,pfeifen,verb,to whistle (with one's mouth or a whistle),A2
+1460,ordentlich,adjective,"tidy, orderly",A2
+1461,ebenfalls,adverb,"also, likewise, as well",A2
+1462,Ärger,noun,"annoyance, anger",A2
+1463,durchaus,adverb,"absolutely, fully, entirely",A2
+1464,Schande,noun,"disgrace, infamy, dishonour",A2
+1465,zweimal,adverb,twice,A2
+1466,langweilig,adjective,"boring, dull, tedious",A2
+1467,Mist,noun,manure (domestic animals’ excrement mixed with hay),A2
+1468,abgesehen,adverb,"except (for), apart (from), other (than)",A2
+1469,Flügel,noun,"wing (of a bird, airplane, etc.)",A2
+1470,Jugend,noun,youth (quality or state of being young; part of life following childhood),A2
+1471,Gehirn,noun,brain,A2
+1472,behauptet,adjective,"asserted, alleged",A2
+1473,Abendessen,noun,"dinner, supper (the evening meal)",A2
+1474,absolut,adverb,absolutely,A2
+1475,schütteln,verb,to shake,A2
+1476,Vorschlag,noun,"suggestion, proposal (something proposed)",A2
+1477,Spitze,noun,cusp,A2
+1478,Marie,noun,money,A2
+1479,Koffer,noun,a case; a suitcase or briefcase,A2
+1480,berichten,verb,"to relate, to tell, to give an account of",A2
+1481,wetten,verb,to bet,A2
+1482,dünn,adjective,"thin, slender, slim",A2
+1483,Gegenteil,noun,opposite (contrary thing),A2
+1484,Rechnung,noun,"bill, restaurant bill",A2
+1485,erwachsen,verb,"to grow up, to grow",A2
+1486,halben,postposition,"for the sake of, because of",A2
+1487,Bursche,noun,"boy, young man",A2
+1488,Bedauern,noun,regret,A2
+1489,verändern,verb,"to alter, to change",A2
+1490,Don,noun,"don (honorific title, especially in Spain and Italy)",A2
+1491,gen,preposition,in the direction; to; towards (a place or time),A2
+1492,satt,adjective,"not hungry, satiated, full, done",A2
+1493,albern,adjective,"goofy, silly, childish (inappropriately funny)",A2
+1494,aufmachen,verb,"to open (a container, a door or window)",A2
+1495,Quelle,noun,spring,A2
+1496,irre,adjective,"crazy, insane, mad, mental",A2
+1497,Bauch,noun,"abdomen, belly",A2
+1498,Unterhaltung,noun,conversation,A2
+1499,frank,adjective,frank,A2
+1500,Bär,noun,bear (animal),A2
+1501,zugeben,verb,"to admit, confess (to own up to something)",A2
+1502,Welle,noun,wave (of water),A2
+1503,Figur,noun,"figure, figurine",A2
+1504,Wolke,noun,cloud (a visible mass of water droplets suspended in the air),A2
+1505,betrachtet,adjective,"considered, regarded",A2
+1506,Urlaub,noun,"holiday, vacation",A2
+1507,sparen,verb,"to save up; to accumulate, to put aside (for a specific purpose)",A2
+1508,räumen,verb,"to clear an area of debris, snow, mines, or other impediments",A2
+1509,Keller,noun,cellar,A2
+1510,Größe,noun,"size, height",A2
+1511,darunter,adverb,"below it, below that, thereunder",A2
+1512,stammen,verb,"to descend, to originate, to be derived",A2
+1513,beschützen,verb,"to protect, to guard, to defend",A2
+1514,Ewigkeit,noun,eternity,A2
+1515,fantastisch,adjective,fantastic,A2
+1516,verlegen,verb,"to misplace, to mislay",A2
+1517,Krone,noun,crown,A2
+1518,zerbrechen,verb,"to break into pieces, to shatter, to snap (to cause an object to come apart into discrete pieces)",A2
+1519,Hass,noun,"hatred, hate",A2
+1520,Geduld,noun,patience,A2
+1521,irgendwelche,pronoun,any (no matter which),A2
+1522,Geschmack,noun,taste,A2
+1523,füllen,verb,to fill,A2
+1524,Staub,noun,dust,A2
+1525,übergeben,verb,to hand over,A2
+1526,vorhaben,verb,"to intend, to have (something) planned, to have (something) to do",A2
+1527,Ereignis,noun,event (occurrence of social or personal importance),A2
+1528,erwachen,verb,to awake (also figuratively),A2
+1529,billig,adjective,"appropriate, meet, fair",A2
+1530,Bad,noun,bath,A2
+1531,gelangen,verb,"to reach, get to, end up in (a place, location)",A2
+1532,neulich,adverb,recently (in the recent past),A2
+1533,Bürger,noun,"citizen, inhabitant, resident; legally recognized inhabitant of a city or state",A2
+1534,Wut,noun,rage; fury; outrage,A2
+1535,Verlust,noun,"loss (all senses, except defeat, for which Niederlage is used)",A2
+1536,vertreten,verb,"to step in, fill (a stead, gap)",A2
+1537,eintreten,verb,"to enter, to come into",A2
+1538,Polizist,noun,police officer (male or female); policeman,A2
+1539,Kette,noun,"chain (series of interconnected rings, usually of metal)",A2
+1540,unterschreiben,verb,to sign (write one’s signature),A2
+1541,Gift,noun,poison; toxin; venom,A2
+1542,weggehen,verb,"to go away, leave, scram",A2
+1543,abnehmen,verb,to take off (to remove something that is attached to something or on top of it),A2
+1544,wiederkommen,verb,"to return, to come back, to come again",A2
+1545,gewohnt,adjective,"usual, customary, familiar",A2
+1546,flehen,verb,"to entreat, to beg",A2
+1547,anstellen,verb,"to queue, to line up",A2
+1548,blasen,verb,to blow,A2
+1549,Schlange,noun,snake,A2
+1550,Team,noun,team,A2
+1551,Riese,noun,giant,A2
+1552,unterstützen,verb,"to support, to assist, to help, to aid",A2
+1553,breit,adjective,"broad, wide",A2
+1554,allgemein,adjective,"general (common, basic, usual), universal",A2
+1555,Schlacht,noun,battle,A2
+1556,Schnee,noun,snow,A2
+1557,quälen,verb,"to torture, to torment, to agonize",A2
+1558,Bord,noun,shelf (board fixed to the wall),A2
+1559,national,adjective,national (being part of a nation's identity or character),A2
+1560,Anblick,noun,"view, sight, look",A2
+1561,Schwanz,noun,tail,A2
+1562,selbstverständlich,adverb,naturally,A2
+1563,verletzen,verb,"to hurt, to injure (cause bodily harm to someone)",A2
+1564,Heil,noun,"health, salvation, well-being, happiness, a state of intactness and prosperity",A2
+1565,auffallen,verb,"to stand out, to be noticeable",A2
+1566,Gerechtigkeit,noun,justice,A2
+1567,lehren,verb,"to teach (a class, a subject); to be a teacher",A2
+1568,entkommen,verb,to escape,A2
+1569,segnen,verb,to bless,A2
+1570,anhören,verb,"to listen to the end, to hear out",A2
+1571,Künstler,noun,artist,A2
+1572,wandern,verb,"to hike, to go trekking",A2
+1573,Holding,noun,holding company,A2
+1574,dringen,verb,to insist; to press,A2
+1575,Nerv,noun,nerve,A2
+1576,wahren,verb,"to protect, to safeguard",A2
+1577,Aue,noun,"flood meadow, floodplain (a flat grassy area adjacent to a river bed, subject to seasonal flooding)",A2
+1578,grausam,adverb,"cruelly, brutally, ferociously",A2
+1579,auseinander,adverb,apart,A2
+1580,Fluch,noun,"curse, malediction, bane",A2
+1581,reizend,adjective,lovely,A2
+1582,einschlafen,verb,to fall asleep,A2
+1583,erweisen,verb,"to prove, to show (itself or oneself)",A2
+1584,Unfall,noun,accident,A2
+1585,Abenteuer,noun,adventure,A2
+1586,umgehen,verb,"to avoid, bypass, to go around (a physical obstacle)",A2
+1587,schmutzig,adjective,"dirty, filthy, grimy",A2
+1588,ausdrücken,verb,"to squeeze, to squeeze out",A2
+1589,Wange,noun,cheek (on the face),A2
+1590,mitteilen,verb,"to inform about, to tell, to disclose, to impart, to report, to announce",A2
+1591,Fleck,noun,"stain, spot, blot, fleck, smear",A2
+1592,eilen,verb,"to hurry, to rush (on foot, in a determined and purposeful manner)",A2
+1593,ausgezeichnet,adverb,excellently,A2
+1594,notwendig,adjective,necessary; essential; indispensable,A2
+1595,Besitz,noun,ownership,A2
+1596,riesig,adjective,"gigantic, huge",A2
+1597,Furcht,noun,fear; fright; anxiety,A2
+1598,woran,adverb,"on what, at what",A2
+1599,Unterschied,noun,difference,A2
+1600,Aussage,noun,proposition,A2
+1601,opfern,verb,"to sacrifice, to give up (for a goal or cause)",A2
+1602,Heimat,noun,"home, home town, homeland, native land",A2
+1603,Stich,noun,"sting, prick, stitch, stab",A2
+1604,Holz,noun,wood (material),A2
+1605,Löwe,noun,lion,A2
+1606,Glocke,noun,bell (percussive instrument),A2
+1607,Laune,noun,"mood, humor",A2
+1608,rächen,verb,to revenge; to avenge,A2
+1609,Zorn,noun,anger; wrath,A2
+1610,Toilette,noun,toilet,A2
+1611,Beruf,noun,"occupation, profession, trade, job, career",A2
+1612,ehren,verb,to honor,A2
+1613,Nass,noun,moisture,A2
+1614,Urteil,noun,"judgment (the preferred spelling in a legal context), verdict, sentence (court decision)",A2
+1615,Affe,noun,monkey or ape (male or female or of unspecified sex),A2
+1616,My,noun,mu (Greek letter),A2
+1617,Kreuz,noun,cross,A2
+1618,verbunden,adjective,"related, connected, interconnected",A2
+1619,verteidigen,verb,to defend (from attack),A2
+1620,politisch,adjective,political (concerning or related to politics),A2
+1621,gewaltig,adjective,"enormous, huge",A2
+1622,Flamme,noun,flame (visible part of fire),A2
+1623,tapfer,adjective,"brave, dauntless, hardy, tough (strong in the face of hardship, pain, danger)",A2
+1624,leiten,verb,to lead,A2
+1625,Strafe,noun,punishment,A2
+1626,gleichzeitig,adverb,"at the same time, simultaneously",A2
+1627,stimmen,verb,"to be right, to be correct, to be proper, to be true",A2
+1628,hinweg,adverb,away,A2
+1629,Stirn,noun,"forehead, brow (often used as an indicator of emotion)",A2
+1630,verschaffen,verb,"to provide, supply, procure",A2
+1631,Graben,noun,ditch,A2
+1632,angreifen,verb,to attack,A2
+1633,Ursache,noun,cause (source or reason of an event or action),A2
+1634,eröffnen,verb,to open (to the public),A2
+1635,Akte,noun,file (collection of papers),A2
+1636,ums,contraction,um + das,A2
+1637,Schrank,noun,"cabinet (storage closet either separate from, or built into, a wall), or (specifically)",A2
+1638,schlechter,adverb,worse,A2
+1639,Untersuchung,noun,"examination, investigation",A2
+1640,verabschieden,verb,to say goodbye (to); to take leave (of),A2
+1641,decken,verb,"to cover (a roof, with a blanket, etc.)",A2
+1642,anständig,adjective,"decent, decorous, reputable, civilized, honest, moral, of integrity",A2
+1643,eignen,verb,"to suit, to be apt for",A2
+1644,Moor,noun,"marsh, mire, bog",A2
+1645,vollständig,adverb,"completely, fully",A2
+1646,entstehen,verb,"to come into being, to arise, to be produced",A2
+1647,heran,adverb,"near, close to the speaker, over to (to the direction of the speaker or an object)",A2
+1648,vorne,adverb,at the front,A2
+1649,wehren,verb,to defend oneself,A2
+1650,Mitternacht,noun,midnight,A2
+1651,weichen,verb,"to move farther away, to make room, to yield",A2
+1652,Situation,noun,"situation, circumstances",A2
+1653,Student,noun,student (person attending lectures at a university; male or of unspecified sex),A2
+1654,Meile,noun,mile (unit of distance),A2
+1655,gründen,verb,"to found, to establish (a community, settlement, organization, company, etc.)",A2
+1656,verurteilen,verb,"to convict, condemn, sentence",A2
+1657,aufheben,verb,to pick up (something lying on the ground),A2
+1658,einstellen,verb,to hire (to add someone to a position of employment),A2
+1659,Zigarette,noun,cigarette,A2
+1660,Hemd,noun,shirt,A2
+1661,innerlich,adjective,"internal, inward",A2
+1662,Kuchen,noun,"pie; cake; tart (foodstuff made of baked dough, other than bread)",A2
+1663,genügen,verb,"to suffice, to be enough",A2
+1664,Baron,noun,baron,A2
+1665,Strahl,noun,"beam, ray (e.g. of light)",A2
+1666,Talent,noun,talent,A2
+1667,vermeiden,verb,"to avoid (something happening, doing something)",A2
+1668,unterrichten,verb,"to teach, to school",A2
+1669,Telefon,noun,telephone,A2
+1670,Bedeutung,noun,"meaning, sense",A2
+1671,Arbeiter,noun,worker (male or of unspecified gender),A2
+1672,verwirrt,adjective,confused,A2
+1673,verantwortlich,adjective,responsible,A2
+1674,Saal,noun,hall or large room (chiefly for gatherings or performances by large groups of people),A2
+1675,Muster,noun,example,A2
+1676,Fantasie,noun,imagination,A2
+1677,Atem,noun,breath,A2
+1678,empfehlen,verb,"to propose, to advise in favor of",A2
+1679,Jahrhundert,noun,a century (period of 100 years),A2
+1680,enthalten,verb,"to contain, comprise",A2
+1681,wachen,verb,to be awake,A2
+1682,Typ,noun,type,A2
+1683,berühmt,adjective,"famous, well-known, renowned, celebrated, noted",A2
+1684,aufmerksam,adjective,"attentive, alert, observant",A2
+1685,blond,adjective,"blond; fair; unlike English, not commonly used of anything other than hair (except beer, see hereunder)",A2
+1686,Priester,noun,priest,A2
+1687,entführen,verb,"to abduct, kidnap, seize (a person or animal)",A2
+1688,Kleiner,noun,"boy, young man",A2
+1689,versehen,verb,to perform (a service or duty),A2
+1690,Chance,noun,chance,A2
+1691,Tal,noun,valley,A2
+1692,verursachen,verb,"to cause, to induce",A2
+1693,bequem,adjective,"comfortable, convenient",A2
+1694,hinauf,adverb,"up; upward; upwards (from the own location upwards, in direction away from the speaker)",A2
+1695,interessieren,verb,to interest,A2
+1696,Markt,noun,market (gathering for sale and purchase),A2
+1697,Verstand,noun,intellect,A2
+1698,Juli,noun,July,A2
+1699,außerhalb,preposition,"outside (of), beyond",A2
+1700,klagen,verb,"to complain (to express feelings of pain, dissatisfaction, or resentment)",A2
+1701,auftauchen,verb,"to come up (of a subject or name in conversation, a difficulty in a project, etc.)",A2
+1702,gerecht,adjective,"just, fair",A2
+1703,Treue,noun,"faithfulness, loyalty",A2
+1704,rasch,adverb,quickly,A2
+1705,stechen,verb,"to be sharp, to stick out",A2
+1706,vorgehen,verb,to walk to the front (of a room or area),A2
+1707,bereuen,verb,"to regret, to rue",A2
+1708,Mitglied,noun,member,A2
+1709,Schlafzimmer,noun,"bedroom (bed-room), bedchamber (bed-chamber)",A2
+1710,Gruß,noun,greeting,A2
+1711,offensichtlich,adverb,obviously,A2
+1712,Schweizer,noun,"Swiss person, Swiss (male)",A2
+1713,abgeben,verb,"to give up, relinquish, let go, concede, hand over, etc. (power, money, valuable objects, etc.)",A2
+1714,Herrschaft,noun,"lordship, reign, rule, dominion",A2
+1715,sperren,verb,to bar (entry to a place or system),A2
+1716,aufziehen,verb,[auxiliary haben],A2
+1717,schief,adverb,"crookedly, at an angle",A2
+1718,Lärm,noun,"noise, din, racket",A2
+1719,Flug,noun,flight (in the air),A2
+1720,anlegen,verb,to create,A2
+1721,praktisch,adverb,virtually (almost but not quite),A2
+1722,Kapitän,noun,captain,A2
+1723,Adresse,noun,address,A2
+1724,ablehnen,verb,"to decline, refuse, reject, turn down",A2
+1725,stumm,adjective,mute; dumb (unable to speak),A2
+1726,Gerücht,noun,rumor / rumour,A2
+1727,spazieren,verb,"to take a walk, to stroll, to walk leisurely",A2
+1728,Botschaft,noun,message,A2
+1729,Mönch,noun,monk,A2
+1730,Gedicht,noun,poem,A2
+1731,perfekt,adjective,perfect,A2
+1732,Armee,noun,army (large tactical contingent consisting of several divisions),A2
+1733,Rad,noun,rad (non-SI unit of absorbed dose of radiation),A2
+1734,Turm,noun,"tower, spire (very tall building or structure, especially with a tapering top)",A2
+1735,Aussicht,noun,"scenery, view, outlook (also figuratively)",A2
+1736,eifersüchtig,adjective,jealous,A2
+1737,Fass,noun,"barrel, keg, cask",A2
+1738,löschen,verb,"to quench (fire, thirst, or lime)",A2
+1739,hervor,adverb,forth (in the direction of the speaker),A2
+1740,Pastor,noun,pastor (clergyman who serves a parish),A2
+1741,umarmen,verb,"to embrace, to hug",A2
+1742,verschlossen,adjective,locked,A2
+1743,stinken,verb,to stink,A2
+1744,freiwillig,adjective,voluntary,A2
+1745,Sarg,noun,coffin,A2
+1746,Bühne,noun,a stage,A2
+1747,Bewusstsein,noun,"consciousness, awareness",A2
+1748,Schauspieler,noun,actor,A2
+1749,Höhle,noun,cave,A2
+1750,zunächst,adverb,"first, first of all, in the first place, to begin with, initially",A2
+1751,Zweck,noun,purpose,A2
+1752,hinunter,adverb,"down, downwards (from the own location downwards)",A2
+1753,zeichnen,verb,"to draw, to sketch",A2
+1754,zweifeln,verb,"to doubt, to be doubtful",A2
+1755,überfallen,verb,"to attack, to assault",A2
+1756,Kloster,noun,"convent, monastery, cloister",A2
+1757,Jeans,noun,"A pair of jeans, denim trousers",A2
+1758,ersetzen,verb,to replace,A2
+1759,einnehmen,verb,"to take, take up, assume, span (a position, space, area)",A2
+1760,Maske,noun,mask,A2
+1761,Fremder,noun,stranger (someone whom one does not know) (male or of unspecified gender),A2
+1762,Sand,noun,sand (particles of rock),A2
+1763,Wurm,noun,worm,A2
+1764,leihen,verb,to borrow,A2
+1765,wiegen,verb,to weigh; to be of a certain weight,A2
+1766,Geburt,noun,birth,A2
+1767,bewundern,verb,"to admire, to highly respect (something of high quality)",A2
+1768,Stufe,noun,"step, tread (of a stair or ladder)",A2
+1769,mischen,verb,to mix,A2
+1770,grau,adjective,"grey, gray",A2
+1771,aufgeregt,adjective,excited,A2
+1772,Roman,noun,novel,A2
+1773,Verbrecher,noun,criminal,A2
+1774,behaupten,verb,"to claim, maintain, assert",A2
+1775,Übersetzung,noun,translation,A2
+1776,bemühen,verb,to make an effort,A2
+1777,total,adverb,"totally, absolutely, completely, utterly",A2
+1778,anschauen,verb,to look at; to behold; to observe (visually); to view,A2
+1779,gebrauchen,verb,to use,A2
+1780,Magen,noun,"stomach, maw",A2
+1781,ausmachen,verb,"to turn off, switch off",A2
+1782,Mauer,noun,"a wall, usually one made of stone or concrete",A2
+1783,Bedingung,noun,"requirement, prerequisite",A2
+1784,Schrei,noun,"shout, cry, scream",A2
+1785,zögern,verb,"to hesitate, to pause before doing something",A2
+1786,amüsieren,verb,to be amused,A2
+1787,Erlaubnis,noun,permission (authorisation),A2
+1788,meistens,adverb,mostly (for the most part),A2
+1789,eingehen,verb,"to arrive (of everything that can be received such postal items, reports, messages and payments)",A2
+1790,Zelle,noun,cell (segregated room),A2
+1791,abends,adverb,"in the evening, at night, see Abend",A2
+1792,Fähigkeit,noun,"ability, capability",A2
+1793,Knabe,noun,"knave, boy, lad",A2
+1794,vorüber,adverb,"gone, over, past",A2
+1795,schluchzen,verb,to sob,A2
+1796,Knochen,noun,bone,A2
+1797,Abschied,noun,"parting, farewell",A2
+1798,sowie,conjunction,as well as,A2
+1799,Menschheit,noun,"humanity, mankind (human beings at large)",A2
+1800,übertreiben,verb,to exaggerate,A2
+1801,Job,noun,"job, position, employment",A2
+1802,gewählt,adjective,"chosen, elected",A2
+1803,nochmal,adverb,once again,A2
+1804,schwingen,verb,to swing (to move back and forth),A2
+1805,Einfluss,noun,"inflow, influx",A2
+1806,Publikum,noun,"audience, those who see, hear, read some work or performance (crowd, viewership, readership etc.)",A2
+1807,Schrecken,noun,fright,A2
+1808,Gebiet,noun,"area, region",A2
+1809,Geruch,noun,"smell, odour",A2
+1810,fesseln,verb,"to chain, to bind",A2
+1811,allzu,adverb,all too,A2
+1812,Pläne,noun,"synonym of Ebene (“level surface, plain, flatland”)",A2
+1813,dahinter,adverb,behind it/that,A2
+1814,Pistole,noun,"pistol, gun",A2
+1815,versammeln,verb,"to gather, to assemble (a group of people for an event, meeting etc.)",A2
+1816,daheim,adverb,"home, at home (adverb)",A2
+1817,morden,verb,to commit murder,A2
+1818,Gebet,noun,prayer,A2
+1819,Mitleid,noun,"pity, compassion",A2
+1820,leeren,verb,to empty,A2
+1821,Satz,noun,sentence,A2
+1822,Pfarrer,noun,pastor (clergyman who serves a parish),A2
+1823,bellen,verb,to bark (like a canine),A2
+1824,Rosa,noun,pink (color),A2
+1825,Verantwortung,noun,responsibility,A2
+1826,Amt,noun,agency; department; office (state institution responsible for specified concerns),A2
+1827,zumindest,adverb,at least,A2
+1828,Blitz,noun,a bolt of lightning,A2
+1829,Stoff,noun,"stuff, matter, substance",A2
+1830,Stärke,noun,strength,A2
+1831,Glückwunsch,noun,congratulation,A2
+1832,ungeheuer,adjective,enormous,A2
+1833,Last,noun,"load, burden",A2
+1834,Verdacht,noun,suspicion,A2
+1835,begeben,verb,to go; to make one's way; to repair,A2
+1836,elf,number,eleven,A2
+1837,leuchten,verb,to shine,A2
+1838,Einheit,noun,unit,A2
+1839,weiblich,adjective,female,A2
+1840,Anteil,noun,"share, portion",A2
+1841,kräftig,adjective,"bold, intense, powerful, robust, strong, sturdy, vigorous, vivid",A2
+1842,loswerden,verb,to get rid of,A2
+1843,Gegenwart,noun,the present,A2
+1844,Linie,noun,line,A2
+1845,Block,noun,bloc,A2
+1846,Öl,noun,oil,A2
+1847,vorkommen,verb,"to appear, to occur (in a given location or situation)",A2
+1848,Gewehr,noun,"rifle, long gun",A2
+1849,knapp,adverb,"narrowly, just, barely",A2
+1850,beschäftigen,verb,"to occupy, to keep occupied, to employ, to engage (possess or use the time, capacity or service of)",A2
+1851,trocken,adjective,dry (not wet; lacking water),A2
+1852,bescheiden,verb,"to confer the decision or fate formally, to announce, to proclaim",A2
+1853,fähig,adjective,capable (having the general capability to),A2
+1854,brüllen,verb,"to shout, roar",A2
+1855,zurückziehen,verb,"to pull back, to withdraw",A2
+1856,fünfte,adjective,fifth,A2
+1857,Liste,noun,list,A2
+1858,Kleidung,noun,clothing; apparel,A2
+1859,Charakter,noun,character; the totality of someone's personal qualities,A2
+1860,Angriff,noun,"attack, offensive, strike, assault, onslaught, raid, offence",A2
+1861,erstaunen,verb,"to astonish, astound",A2
+1862,Gesundheit,noun,health (state of being in good physical condition and free from illness),A2
+1863,existieren,verb,to exist,A2
+1864,beschlossen,adjective,"decided, agreed",A2
+1865,Schein,noun,"shine, gleam, flash",A2
+1866,Hügel,noun,hill,A2
+1867,Hamburger,noun,Hamburger (person),A2
+1868,Ausgang,noun,exit (passage from inside to outside),A2
+1869,Tasse,noun,"cup, mug (drinking vessel)",A2
+1870,Gestalt,noun,"shape, form, figure, outline",A2
+1871,Bande,noun,gang (group of people united for some immoral or criminal objective),A2
+1872,Zahl,noun,"number, numeral, figure",A2
+1873,Angeklagter,noun,defendant (person prosecuted or sued) (male or of unspecified gender),A2
+1874,mitkommen,verb,"to come with, to join and come along with (another person)",A2
+1875,offiziell,adjective,official,A2
+1876,Wissenschaft,noun,science (a branch of knowledge or academic discipline dealing with a systematic body of facts or truths),A2
+1877,Puppe,noun,doll,A2
+1878,äußerst,adverb,"utmostly, extremely",A2
+1879,umdrehen,verb,"to twist, to turn, to turn around",A2
+1880,verfluchen,verb,to curse,A2
+1881,Wirkung,noun,effect,A2
+1882,entschlossen,adjective,"determined, set, resolute",A2
+1883,Klang,noun,"sound, tone",A2
+1884,Beamter,noun,"government employee, (government) official, civil servant, public servant, (police) officer",A2
+1885,umgeben,verb,to surround (to encircle or simultaneously extend on all sides of something),A2
+1886,Energie,noun,energy,A2
+1887,ruinieren,verb,"to ruin (to destroy or make dysfunctional, e.g. of health, relationships or financially)",A2
+1888,unangenehm,adverb,unpleasantly,A2
+1889,erholen,verb,"to relax, to recover, to recuperate",A2
+1890,besiegen,verb,to defeat (to overcome in battle or contest),A2
+1891,kaputt,adjective,"destroyed, broken, out of order",A2
+1892,Brunnen,noun,well,A2
+1893,köstlich,adjective,costly; precious,A2
+1894,männlich,adjective,male,A2
+1895,Flur,noun,"hall, hallway, corridor, stairwell",A2
+1896,Lösung,noun,solution (answer to a riddle or problem),A2
+1897,gegenseitig,adverb,mutually,A2
+1898,vermuten,verb,"to assume, suppose, presume, suspect, (US) guess",A2
+1899,schmeißen,verb,to throw; to fling; to hurl,A2
+1900,grauen,verb,to cause terror,A2
+1901,Märchen,noun,fairy tale (folk tale),A2
+1902,Lampe,noun,"lamp, light (piece of furniture, or fixture mounted on a wall or ceiling, holding one or more electric light sockets)",A2
+1903,enttäuscht,adjective,disappointed (defeated of hope or expectation),A2
+1904,hungrig,adjective,hungry (desirous of food),A2
+1905,Klappe,noun,"flap, every technical or natural implement that is bound in front of something or a body part of someone or a beast t",A2
+1906,Stiefel,noun,boot (shoe),A2
+1907,aufpassen,verb,"to watch out, to be alert",A2
+1908,düster,adjective,"dark, dim, gloomy, obscure",A2
+1909,beides,conjunction,both,A2
+1910,angegriffen,adjective,attacked,A2
+1911,aha,interjection,aha,A2
+1912,verdächtigen,verb,to suspect,A2
+1913,verloben,verb,to betroth; to get engaged (optional [with mit (+ dative) ‘someone’]),A2
+1914,Montag,noun,Monday,A2
+1915,Kerze,noun,candle,A2
+1916,scheinbar,adverb,apparently (seemingly),A2
+1917,beliebt,adjective,popular,A2
+1918,Herrgott,noun,"God, the Lord",A2
+1919,Sprung,noun,"jump, leap",A2
+1920,deuten,verb,"to interpret (e.g. dreams), to understand, to read (e.g. signs)",A2
+1921,System,noun,system,A2
+1922,Uniform,noun,uniform (distinctive outfit as a means of identifying members of a group),A2
+1923,dreimal,adverb,"thrice, three times",A2
+1924,üblich,adjective,usual,A2
+1925,Agent,noun,agent (male or of unspecified gender),A2
+1926,ringen,verb,to wrestle,A2
+1927,Tropfen,noun,drop,A2
+1928,Erbe,noun,inheritance; heritage; legacy; bequest (property that is bequeathed and inherited),A2
+1929,Gedächtnis,noun,memory (ability to recall),A2
+1930,Apfel,noun,apple (fruit),A2
+1931,Sage,noun,"saga, legend, myth, story, tale",A2
+1932,unendlich,adjective,infinite,A2
+1933,kriechen,verb,to creep; to crawl,A2
+1934,Summe,noun,sum (maths),A2
+1935,fügen,verb,to join,A2
+1936,Unterricht,noun,"lesson, class, instruction, education",A2
+1937,vertragen,verb,"to tolerate, bear",A2
+1938,angetan,adjective,be taken with something; have taken a shine,A2
+1939,schwanger,adjective,pregnant (of humans),A2
+1940,glatt,adjective,"without roughness or unevenness: smooth; sleek, slick; even; clean (of a shave or cut); straight (of hair)",A2
+1941,Text,noun,text (writing consisting of several sentences and forming a discrete unit),A2
+1942,Kamerad,noun,comrade (fellow soldier),A2
+1943,geheimnisvoll,adjective,"mysterious, cryptic, arcane, enigmatic",A2
+1944,Wüste,noun,desert,A2
+1945,Projekt,noun,project,A2
+1946,abschneiden,verb,to cut off,A2
+1947,bestrafen,verb,to punish,A2
+1948,Sklave,noun,slave,A2
+1949,ausführen,verb,"to take out, to take or lead outside",A2
+1950,heiter,adjective,"cheerful, light-hearted",A2
+1951,Wette,noun,bet,A2
+1952,zart,adjective,tender,A2
+1953,mutig,adjective,courageous,A2
+1954,Konsul,noun,consul,A2
+1955,überwinden,verb,"to overcome, to get over",A2
+1956,herunter,adverb,"down, downwards (to the own location downwards)",A2
+1957,Thema,noun,"topic, subject, issue",A2
+1958,Fieber,noun,fever (heightened body temperature),A2
+1959,innerhalb,preposition,"within, inside (of)",A2
+1960,Norden,noun,north (direction),A2
+1961,verzweifelt,adverb,desperately,A2
+1962,soeben,adverb,"just now, quite recently (moments ago)",A2
+1963,Partei,noun,political party,A2
+1964,stillen,verb,"to nurse, suckle, breastfeed (a baby)",A2
+1965,Felsen,noun,rock,A2
+1966,Wirklichkeit,noun,reality,A2
+1967,abhalten,verb,"to keep off, away, or out; to hold off",A2
+1968,widerstehen,verb,"to withstand, to resist",A2
+1969,erwidern,verb,"to reciprocate, return, to react with something analogous",A2
+1970,anscheinend,adverb,apparently,A2
+1971,landen,verb,"to land (to reach solid ground in an air, water or space vessel)",A2
+1972,ersticken,verb,to smother,A2
+1973,Jagd,noun,"hunt, hunting",A2
+1974,daneben,adverb,"next to it, next to that",A2
+1975,fürchterlich,adverb,"terribly, awfully",A2
+1976,Rätsel,noun,"riddle, puzzle, mystery, enigma",A2
+1977,verschwenden,verb,"to waste, to squander",A2
+1978,Maler,noun,one who does this: to paint,A2
+1979,Brauch,noun,custom,A2
+1980,kleiden,verb,"to dress, to clothe",A2
+1981,italienisch,adjective,Italian,A2
+1982,Anspruch,noun,"entitlement, demand, expectation of what should come from someone or something",A2
+1983,mindestens,adverb,at least (at a lower limit),A2
+1984,herstellen,verb,"to produce, manufacture",A2
+1985,königlich,adjective,"royal, regal, kingly",A2
+1986,Verwandter,noun,relative (male or of unspecified gender),A2
+1987,wobei,adverb,Introduces a comitative sentence,A2
+1988,weiterhin,adverb,still,A2
+1989,Bote,noun,messenger (male or of unspecified gender),A2
+1990,sicherlich,adverb,certainly,A2
+1991,Zelt,noun,"tent, marquee",A2
+1992,läuten,verb,"to ring, toll (a bell)",A2
+1993,Wirt,noun,pubkeeper; innkeeper,A2
+1994,einsetzen,verb,to put in; set in; insert,A2
+1995,Lehre,noun,"teaching, tenet",A2
+1996,außen,adverb,outside,A2
+1997,Feder,noun,feather,A2
+1998,überraschen,verb,to surprise,A2
+1999,erfunden,adjective,"invented, contrived",A2
+2000,Leutnant,noun,lieutenant,A2

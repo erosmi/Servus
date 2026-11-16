@@ -588,6 +588,217 @@ let vocabularyMeaningVisible = false;
 let recognition = null;
 let activeSpeakButton = null;
 
+const vocabularyCategories = [
+  {
+    id: 'cat-home',
+    title: 'Home & Daily Routine',
+    terms: [
+      'wohnung', 'haus', 'zimmer', 'küche', 'keller', 'dach', 'wand', 'boden', 'tisch', 'stuhl',
+      'bett', 'fenster', 'tür', 'sofa', 'möbel', 'stiege', 'lift', 'kasten', 'herd', 'mistkübel',
+      'aufstehen', 'frühstück', 'schlafen', 'waschen', 'putzen', 'aufräumen', 'alltag', 'routine',
+      'apartment', 'house', 'room', 'furniture', 'kitchen', 'bedroom', 'window', 'door', 'chair',
+      'table', 'bed', 'sofa', 'wardrobe', 'routine', 'wake', 'breakfast', 'clean', 'chores', 'home',
+      'living', 'live', 'stay'
+    ]
+  },
+  {
+    id: 'cat-people',
+    title: 'People & Relationships',
+    terms: [
+      'familie', 'mutter', 'vater', 'eltern', 'sohn', 'tochter', 'bruder', 'schwester', 'geschwister',
+      'kind', 'baby', 'freund', 'freundin', 'frau', 'mann', 'mensch', 'person', 'leute', 'partner',
+      'nachbar', 'kolleg', 'oma', 'opa', 'großeltern', 'tante', 'onkel', 'verwandte', 'gast',
+      'herz', 'heirat', 'hochzeit', 'single',
+      'family', 'mother', 'father', 'parent', 'son', 'daughter', 'brother', 'sister', 'sibling',
+      'child', 'friend', 'woman', 'man', 'person', 'people', 'partner', 'neighbor', 'colleague',
+      'relative', 'guest', 'marry', 'marriage', 'love'
+    ]
+  },
+  {
+    id: 'cat-food',
+    title: 'Food, Drink & Shopping',
+    terms: [
+      'essen', 'trink', 'brot', 'milch', 'käse', 'fleisch', 'wurst', 'fisch', 'obst', 'gemüse',
+      'apfel', 'erdapfel', 'kartoffel', 'marille', 'semmel', 'kuchen', 'kaffee', 'tee', 'wasser',
+      'bier', 'wein', 'jause', 'sackerl', 'kassa', 'supermarkt', 'laden', 'geschäft', 'markt',
+      'bäckerei', 'preis', 'geld', 'euro', 'cent', 'kosten', 'kaufen', 'verkaufen', 'bezahlen',
+      'rechnung', 'restaurant', 'gasthaus', 'wirtshaus', 'speise', 'karte', 'kellner', 'koch',
+      'kochen', 'backen', 'hunger', 'durst', 'frühstück', 'mittagessen', 'abendessen',
+      'food', 'drink', 'bread', 'milk', 'cheese', 'meat', 'fruit', 'vegetable', 'apple', 'potato',
+      'apricot', 'coffee', 'tea', 'water', 'beer', 'wine', 'snack', 'bag', 'shop', 'store',
+      'market', 'bakery', 'price', 'money', 'buy', 'sell', 'pay', 'bill', 'restaurant', 'meal', 'menu',
+      'cook', 'bake', 'lunch', 'dinner'
+    ]
+  },
+  {
+    id: 'cat-travel',
+    title: 'Travel, Town & Transport',
+    terms: [
+      'reise', 'urlaub', 'ausflug', 'stadt', 'dorf', 'ort', 'platz', 'straße', 'strasse', 'gasse',
+      'weg', 'kreuzung', 'ampel', 'brücke', 'bahnhof', 'haltestelle', 'gleis', 'zug', 'bahn', 'bim',
+      'tram', 'straßenbahn', 'u-bahn', 'bus', 'auto', 'pkw', 'fahrrad', 'rad', 'flughafen', 'flugzeug',
+      'ticket', 'fahrschein', 'karte', 'verspätung', 'abfahrt', 'ankunft', 'umsteigen', 'fahren',
+      'gehen', 'geradeaus', 'links', 'rechts', 'nähe', 'weit', 'hotel', 'trafik', 'übersee',
+      'travel', 'trip', 'holiday', 'city', 'town', 'village', 'street', 'road', 'station', 'stop',
+      'platform', 'train', 'tram', 'subway', 'bus', 'car', 'bike', 'bicycle', 'airport', 'ticket',
+      'delay', 'departure', 'arrival', 'straight', 'left', 'right', 'hotel', 'flight', 'drive', 'ride'
+    ]
+  },
+  {
+    id: 'cat-work',
+    title: 'Work & Education',
+    terms: [
+      'arbeit', 'beruf', 'stelle', 'job', 'firma', 'unternehmen', 'betrieb', 'büro', 'buero',
+      'chef', 'kollege', 'gehalt', 'lohn', 'bewerbung', 'lebenslauf', 'vorstellungsgespräch',
+      'schule', 'unterricht', 'lehrer', 'schüler', 'klasse', 'prüfung', 'pruefung', 'note',
+      'lehre', 'lehrstelle', 'ausbildung', 'studium', 'universität', 'uni', 'kurs', 'lernen',
+      'studieren', 'fachkraft', 'fachkräftemangel', 'weiterbildung', 'aufgabe', 'projekt',
+      'work', 'job', 'career', 'office', 'company', 'boss', 'salary', 'application', 'resume',
+      'interview', 'school', 'lesson', 'teacher', 'student', 'exam', 'grade', 'apprentice',
+      'apprenticeship', 'study', 'university', 'course', 'learn', 'teach', 'project'
+    ]
+  },
+  {
+    id: 'cat-health',
+    title: 'Health & Body',
+    terms: [
+      'gesund', 'krank', 'arzt', 'ärztin', 'ordination', 'praxis', 'spital', 'krankenhaus',
+      'apotheke', 'medikament', 'tablette', 'rezept', 'e-card', 'versicherung', 'termin',
+      'schmerz', 'weh', 'kopfschmerzen', 'halsschmerzen', 'bauchschmerzen', 'fieber', 'husten',
+      'schnupfen', 'grippe', 'körper', 'kopf', 'auge', 'ohr', 'nase', 'mund', 'zahn', 'hals',
+      'arm', 'hand', 'finger', 'bein', 'fuß', 'fuss', 'rücken', 'herz', 'magen', 'blut', 'atem',
+      'health', 'healthy', 'ill', 'sick', 'doctor', 'clinic', 'hospital', 'pharmacy', 'medicine',
+      'pain', 'headache', 'fever', 'cough', 'cold', 'body', 'head', 'eye', 'ear', 'nose', 'mouth',
+      'tooth', 'arm', 'hand', 'leg', 'foot', 'back', 'heart', 'stomach', 'blood', 'breathe'
+    ]
+  },
+  {
+    id: 'cat-nature',
+    title: 'Nature, Weather & Animals',
+    terms: [
+      'natur', 'wetter', 'sonne', 'regen', 'schnee', 'wind', 'wolke', 'gewitter', 'sturm', 'kalt',
+      'warm', 'heiß', 'kühl', 'grad', 'temperatur', 'himmel', 'luft', 'erde', 'berg', 'alpen',
+      'wald', 'baum', 'blume', 'pflanze', 'see', 'fluss', 'donau', 'tier', 'hund', 'katze',
+      'vogel', 'kuh', 'pferd', 'schaf', 'wild', 'garten', 'umwelt',
+      'nature', 'weather', 'sun', 'rain', 'snow', 'wind', 'cloud', 'storm', 'cold', 'warm', 'hot',
+      'temperature', 'sky', 'mountain', 'alps', 'forest', 'tree', 'flower', 'plant', 'lake',
+      'river', 'animal', 'dog', 'cat', 'bird', 'cow', 'horse', 'garden', 'environment'
+    ]
+  },
+  {
+    id: 'cat-leisure',
+    title: 'Culture, Media & Free Time',
+    terms: [
+      'freizeit', 'hobb', 'sport', 'fußball', 'fussball', 'ski', 'wandern', 'schwimmen', 'spiel',
+      'fest', 'dorffest', 'feier', 'party', 'geburtstag', 'ausstellung', 'museum', 'theater',
+      'kino', 'film', 'konzert', 'musik', 'lied', 'singen', 'tanzen', 'buch', 'lesen', 'zeitung',
+      'magazin', 'nachrichten', 'bericht', 'zeit im bild', 'zib', 'orf', 'fernsehen', 'tv', 'radio',
+      'sendung', 'beitrag', 'internet', 'online', 'website', 'computer', 'handy', 'telefon',
+      'foto', 'kamera', 'leisure', 'hobby', 'sport', 'hike', 'swim', 'game', 'festival', 'celebration',
+      'party', 'birthday', 'museum', 'theatre', 'cinema', 'movie', 'concert', 'music', 'song',
+      'sing', 'dance', 'book', 'read', 'newspaper', 'news', 'television', 'radio', 'phone', 'photo',
+      'video', 'media', 'art', 'artist'
+    ]
+  },
+  {
+    id: 'cat-feelings',
+    title: 'Feelings, Opinions & Society',
+    terms: [
+      'gefühl', 'gefuehl', 'freude', 'glück', 'glueck', 'angst', 'wut', 'trauer', 'stolz', 'liebe',
+      'hoffnung', 'sorge', 'lust', 'interesse', 'meinung', 'ansicht', 'gedanke', 'idee', 'glaube',
+      'problem', 'grund', 'ursache', 'folge', 'wirkung', 'ziel', 'plan', 'vorschlag', 'entscheidung',
+      'gemeinde', 'staat', 'land', 'politik', 'gesellschaft', 'gesetz', 'recht', 'ordnung',
+      'kultur', 'tradition', 'identität', 'wichtig', 'richtig', 'falsch', 'gut', 'schlecht',
+      'feeling', 'emotion', 'joy', 'happy', 'fear', 'afraid', 'angry', 'proud', 'love', 'hope',
+      'worry', 'opinion', 'thought', 'idea', 'problem', 'cause', 'consequence', 'goal', 'plan',
+      'proposal', 'decision', 'community', 'politics', 'society', 'law', 'culture', 'tradition',
+      'important', 'right', 'wrong', 'good', 'bad', 'peace', 'war', 'justice'
+    ]
+  },
+  {
+    id: 'cat-everyday',
+    title: 'Numbers, Time & Small Words',
+    terms: [
+      'uhr', 'zeit', 'stunde', 'minute', 'sekunde', 'tag', 'woche', 'monat', 'jahr', 'jahrzehnt',
+      'heute', 'gestern', 'morgen', 'übermorgen', 'vormittag', 'mittag', 'nachmittag', 'abend',
+      'nacht', 'wochenende', 'montag', 'dienstag', 'mittwoch', 'donnerstag', 'freitag', 'samstag',
+      'sonntag', 'jänner', 'februar', 'märz', 'april', 'mai', 'juni', 'juli', 'august', 'september',
+      'oktober', 'november', 'dezember', 'frühling', 'sommer', 'herbst', 'winter', 'datum',
+      'eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn',
+      'hundert', 'tausend', 'erste', 'zweite', 'dritte', 'zahl', 'nummer', 'menge',
+      'auch', 'nur', 'noch', 'schon', 'immer', 'nie', 'oft', 'manchmal', 'selten', 'wieder',
+      'jetzt', 'nun', 'gleich', 'später', 'bald', 'dann', 'danach', 'zuerst', 'hier', 'da',
+      'dort', 'her', 'hin', 'rein', 'raus', 'oben', 'unten', 'draußen', 'drinnen', 'dazu',
+      'sehr', 'ganz', 'viel', 'wenig', 'mehr', 'ein bissl', 'etwas', 'eh', 'gell', 'halt',
+      'freilich', 'vielleicht', 'bitte', 'danke', 'servus', 'grüß gott', 'hallo', 'tschuess', 'tschüss',
+      'time', 'hour', 'minute', 'day', 'week', 'month', 'year', 'today', 'yesterday', 'tomorrow',
+      'morning', 'evening', 'night', 'weekend', 'monday', 'tuesday', 'wednesday', 'thursday',
+      'friday', 'saturday', 'sunday', 'january', 'february', 'march', 'april', 'may', 'june',
+      'july', 'august', 'september', 'october', 'november', 'december', 'spring', 'summer', 'autumn',
+      'winter', 'date', 'number', 'numeral', 'first', 'second', 'third', 'always', 'never', 'often',
+      'again', 'now', 'soon', 'later', 'here', 'there', 'very', 'much', 'little', 'more', 'maybe',
+      'please', 'thank'
+    ]
+  }
+];
+
+function getVocabularyCategory(card) {
+  const searchText = `${card.term} ${card.meaning} ${card.topic || ''}`.toLocaleLowerCase('de-AT');
+  for (const cat of vocabularyCategories) {
+    if (cat.terms.some((term) => searchText.includes(term))) {
+      return cat;
+    }
+  }
+  if (card.partOfSpeech === 'noun') return vocabularyCategories[0];
+  if (card.partOfSpeech === 'verb') return vocabularyCategories[0];
+  if (card.partOfSpeech === 'adjective') return vocabularyCategories[8];
+  return vocabularyCategories[9];
+}
+
+function getAllVocabularyCards(level) {
+  const unitCards = (topicUnits[level] || []).flatMap((unit, unitIndex) =>
+    unit.vocabulary.map((entry, wordIndex) => {
+      const separator = entry.indexOf(' — ');
+      return {
+        id: `${level}-${unitIndex}-${wordIndex}`,
+        term: separator < 0 ? entry : entry.slice(0, separator),
+        meaning: separator < 0 ? '' : entry.slice(separator + 3),
+        topic: unit.title
+      };
+    })
+  );
+  const curatedCards = (additionalFlashcardsByLevel[level] || []).map((entry, wordIndex) => {
+    const separator = entry.indexOf(' — ');
+    return {
+      id: `${level}-curated-${wordIndex}`,
+      term: entry.slice(0, separator),
+      meaning: entry.slice(separator + 3),
+      topic: `CEFR ${level}`
+    };
+  });
+  const importedCards = importedFlashcardsByLevel[level] || [];
+  return [...unitCards, ...curatedCards, ...importedCards];
+}
+
+function getVocabularyCategoryList(level) {
+  const cards = getAllVocabularyCards(level);
+  const counts = new Map();
+  for (const card of cards) {
+    const cat = getVocabularyCategory(card);
+    counts.set(cat.id, (counts.get(cat.id) || 0) + 1);
+  }
+  return vocabularyCategories.map((cat, idx) => ({
+    ...cat,
+    number: idx + 1,
+    count: counts.get(cat.id) || 0
+  })).filter((cat) => cat.count > 0);
+}
+
+function topicValue(value) {
+  if (value === 'quick' || value.startsWith('cat-')) return value;
+  return Number(value);
+}
+
 function syncTopicSelectors() {
   const units = topicUnits[currentLevel];
 
@@ -595,8 +806,12 @@ function syncTopicSelectors() {
   if (panelSectionTitle) {
     if (currentTopic === 'quick') {
       panelSectionTitle.textContent = currentSkill === 'grammar' ? 'Quick practice & Checklist' : 'Quick practice';
+    } else if (currentSkill === 'vocabulary' && typeof currentTopic === 'string' && currentTopic.startsWith('cat-')) {
+      const catList = getVocabularyCategoryList(currentLevel);
+      const matched = catList.find((cat) => cat.id === currentTopic);
+      panelSectionTitle.textContent = matched ? `${matched.number}. ${matched.title}` : 'Vocabulary';
     } else if (typeof currentTopic === 'number' && units[currentTopic]) {
-      panelSectionTitle.textContent = units[currentTopic].title;
+      panelSectionTitle.textContent = `${currentTopic + 1}. ${units[currentTopic].title}`;
     }
   }
 
@@ -604,16 +819,26 @@ function syncTopicSelectors() {
     const activeCount = currentTopic === 'quick'
       ? getQuickActivityList(currentLevel, currentSkill).length
       : getTopicExerciseCount(currentLevel, currentSkill, currentTopic);
-    panelSectionCount.textContent = ``;
+    const unitLabel = currentSkill === 'vocabulary'
+      ? (activeCount === 1 ? 'card' : 'cards')
+      : (activeCount === 1 ? 'exercise' : 'exercises');
+    panelSectionCount.textContent = `${activeCount} ${unitLabel}`;
   }
 
-  // Build options HTML
-  const optionsHtml = [
-    '<option value="quick">⚡ Quick practice</option>',
-    '<optgroup label="Topics">',
-    ...units.map((unit, i) => `<option value="${i}">Topic ${i + 1} · ${unit.title}</option>`),
-    '</optgroup>'
-  ].join('');
+  // Build options HTML: clean 1. 2. 3... numbering without separate optgroups
+  let optionsHtml = '';
+  if (currentSkill === 'vocabulary') {
+    const catList = getVocabularyCategoryList(currentLevel);
+    optionsHtml = [
+      '<option value="quick">⚡ Quick practice (all cards)</option>',
+      ...catList.map((cat) => `<option value="${cat.id}">${cat.number}. ${cat.title} · ${cat.count} cards</option>`)
+    ].join('');
+  } else {
+    optionsHtml = [
+      '<option value="quick">⚡ Quick practice</option>',
+      ...units.map((unit, i) => `<option value="${i}">${i + 1}. ${unit.title}</option>`)
+    ].join('');
+  }
 
   // Update panel topic select
   if (panelTopicSelect) {
@@ -751,17 +976,20 @@ function renderTopicExercise(skill, unit, example, unitIndex, exerciseIndex) {
   }
 
   function getTopicExerciseCount(level, skill, topicIndex) {
+    if (skill === 'vocabulary') {
+      if (typeof topicIndex === 'string') return getVocabularyCards(level, topicIndex).length;
+      if (typeof topicIndex === 'number') return topicUnits[level][topicIndex]?.vocabulary.length || 0;
+      return getVocabularyCards(level, 'quick').length;
+    }
     if (typeof topicIndex === 'number' && topicUnits[level][topicIndex]) {
       const unit = topicUnits[level][topicIndex];
       if (skill === 'reading') return topicReadingPacks[level][topicIndex].questions.length;
       if (skill === 'grammar') return 1;
-      if (skill === 'vocabulary') return unit.vocabulary.length;
       return unit.examples.length;
     }
     return topicUnits[level].reduce((total, unit, index) => {
       if (skill === 'reading') return total + topicReadingPacks[level][index].questions.length;
       if (skill === 'grammar') return total + 1;
-      if (skill === 'vocabulary') return total + unit.vocabulary.length;
       return total + unit.examples.length;
     }, 0);
   }
@@ -778,6 +1006,170 @@ function getQuickActivityList(level, skill) {
 }
 
 const knownVocabularyStorageKey = 'servus-deutsch-known-vocabulary';
+
+const additionalFlashcardsByLevel = {
+  A1: [
+    'der Mann — man', 'die Frau — woman', 'die Zeit — time', 'das Haus — house', 'das Mädchen — girl', 'der Tag — day',
+    'kommen — come; arrive', 'sehen — see', 'gehen — go; walk', 'wissen — know', 'sagen — say', 'hören — hear',
+    'gut — good; well', 'noch — still; yet', 'jetzt — now', 'schnell — quickly'
+  ],
+  A2: [
+    'der Streit — argument; quarrel', 'die Tante — aunt', 'der Erfolg — success', 'der Bescheid — information; notice',
+    'der Hunger — hunger', 'die Treppe — stairs', 'die Regel — rule', 'der Nachbar — neighbour',
+    'der Zweifel — doubt', 'das Boot — boat', 'wütend — angry', 'geheim — secret', 'schieben — push; shove',
+    'mitbringen — bring along', 'vergehen — pass; elapse', 'beenden — finish', 'dennoch — nevertheless',
+    'teuer — expensive', 'bestätigen — confirm', 'vermissen — miss; feel someone’s absence', 'schwimmen — swim',
+    'schwierig — difficult'
+  ],
+  B1: [
+    'die Einladung — invitation', 'die Veränderung — change', 'der Pfeil — arrow', 'der Partner — partner',
+    'der Vorwurf — reproach; accusation', 'der Empfang — reception; receipt', 'die Strecke — route; stretch',
+    'der Spruch — saying; short expression', 'die Weisheit — wisdom', 'der Vertrag — contract',
+    'verteilen — distribute', 'friedlich — peaceful', 'entsprechen — correspond; match', 'aushalten — endure',
+    'beschließen — decide; conclude', 'beibringen — teach', 'ständig — constant; continual',
+    'verzichten — do without; give up', 'feucht — damp; humid', 'entspannen — relax'
+  ],
+  B2: [
+    'der Drachen — kite', 'das Gitter — grid; bars', 'die Tanne — fir tree', 'die Kontrolle — inspection; check',
+    'der Einsatz — use; deployment', 'der Haken — hook', 'die Nachbarschaft — neighbourhood',
+    'die Eigenschaft — quality; characteristic', 'der Adler — eagle', 'das Stockwerk — floor; storey',
+    'streben — strive', 'fördern — support; promote', 'fortsetzen — continue', 'staunen — be amazed',
+    'komplett — complete', 'heutzutage — nowadays', 'wahrhaftig — truly', 'überraschend — unexpectedly'
+  ],
+  C1: [
+    'der Fingernagel — fingernail', 'das Leder — leather', 'die Fortsetzung — continuation',
+    'die Akademie — academy', 'der Dachboden — attic', 'die Kellnerin — waitress', 'das Heimweh — homesickness',
+    'die Breite — breadth; width', 'die Stiftung — foundation', 'der Höhepunkt — highlight; climax',
+    'zerstreut — distracted; absent-minded', 'teilweise — partly', 'erheblich — considerably', 'segeln — sail',
+    'hinnehmen — accept reluctantly', 'verweilen — stay; linger', 'verlängern — extend',
+    'begeistern — inspire; fill with enthusiasm', 'einhalten — keep; comply with', 'zurzeit — currently'
+  ],
+  C2: [
+    'ungeschehen — undone; as if it never happened', 'pennen — sleep (colloquial)',
+    'zerquetschen — crush', 'fortschreiten — progress', 'das Universum — universe', 'sexy — sexy',
+    'der Verbleib — whereabouts', 'die Brause — fizzy drink; shower spray'
+  ]
+};
+
+const einlangVocabularyFiles = {
+  A1: 'de-a1-vocabulary-list.csv',
+  A2: 'de-a2-vocabulary-list.csv',
+  B1: 'de-b1-vocabulary-list.csv',
+  B2: 'de-b2-vocabulary-list.csv',
+  C1: 'de-c1-vocabulary-list.csv',
+  C2: 'de-c2-vocabulary-list.csv'
+};
+
+const importedFlashcardsByLevel = { A1: [], A2: [], B1: [], B2: [], C1: [], C2: [] };
+const importedVocabularyCacheKey = 'servus-deutsch-einlang-flashcards-v1';
+const eligibleEinlangPartsOfSpeech = new Set(['noun', 'verb', 'adjective', 'adverb', 'interjection', 'number']);
+
+function parseVocabularyCsv(csvText) {
+  const rows = [];
+  let cell = '';
+  let row = [];
+  let quoted = false;
+  for (let index = 0; index < csvText.length; index += 1) {
+    const character = csvText[index];
+    if (character === '"') {
+      if (quoted && csvText[index + 1] === '"') {
+        cell += '"';
+        index += 1;
+      } else {
+        quoted = !quoted;
+      }
+    } else if (character === ',' && !quoted) {
+      row.push(cell);
+      cell = '';
+    } else if ((character === '\n' || character === '\r') && !quoted) {
+      if (character === '\r' && csvText[index + 1] === '\n') index += 1;
+      row.push(cell);
+      if (row.some(Boolean)) rows.push(row);
+      row = [];
+      cell = '';
+    } else {
+      cell += character;
+    }
+  }
+  row.push(cell);
+  if (row.some(Boolean)) rows.push(row);
+  const [headers, ...data] = rows;
+  return data.map((values) => Object.fromEntries(headers.map((header, index) => [header, values[index] || ''])));
+}
+
+function parseNounArticles(csvText) {
+  return csvText.split(/\r?\n/).reduce((articles, row) => {
+    const separator = row.lastIndexOf(',');
+    if (separator < 1) return articles;
+    const word = row.slice(0, separator).trim().toLocaleLowerCase('de-AT');
+    const gender = row.slice(separator + 1).trim();
+    const article = gender === 'm' ? 'der' : gender === 'f' ? 'die' : gender === 'n' ? 'das' : '';
+    if (article) articles.set(word, article);
+    return articles;
+  }, new Map());
+}
+
+function buildImportedFlashcards(level, vocabularyRows, nounArticles) {
+  const cards = [];
+  const topicByPartOfSpeech = {
+    noun: 'NOUNS & THINGS',
+    verb: 'VERBS & ACTIONS',
+    adjective: 'DESCRIPTIONS & MODIFIERS',
+    adverb: 'DESCRIPTIONS & MODIFIERS',
+    number: 'NUMBERS & EVERYDAY EXPRESSIONS',
+    interjection: 'NUMBERS & EVERYDAY EXPRESSIONS'
+  };
+  for (const row of vocabularyRows) {
+    if (!eligibleEinlangPartsOfSpeech.has(row.part_of_speech)) continue;
+    const word = row.word.trim();
+    const article = row.part_of_speech === 'noun' ? nounArticles.get(word.toLocaleLowerCase('de-AT')) : '';
+    if (row.part_of_speech === 'noun' && !article) continue;
+    cards.push({
+      id: `${level}-einlang-source-${row.rank}`,
+      term: article ? `${article} ${word}` : word,
+      meaning: row.meaning,
+      topic: `EINLANG · ${level} · ${topicByPartOfSpeech[row.part_of_speech]}`,
+      partOfSpeech: row.part_of_speech
+    });
+    if (cards.length === 500) break;
+  }
+  return cards;
+}
+
+async function loadImportedFlashcards() {
+  try {
+    const cached = JSON.parse(localStorage.getItem(importedVocabularyCacheKey) || 'null');
+    if (cached && Object.keys(einlangVocabularyFiles).every((level) => Array.isArray(cached[level]) && cached[level].length === 500)) {
+      Object.assign(importedFlashcardsByLevel, cached);
+      return;
+    }
+  } catch {
+    // Fetch fresh source files when stored cards are unavailable or outdated.
+  }
+
+  try {
+    const genderUrl = 'https://raw.githubusercontent.com/mejutoco/german-grammar-statistics/master/german_top_50000_gender.csv';
+    const [genderResponse, ...vocabularyResponses] = await Promise.all([
+      fetch(genderUrl),
+      ...Object.values(einlangVocabularyFiles).map((filename) => fetch(filename))
+    ]);
+    if (!genderResponse.ok || vocabularyResponses.some((response) => !response.ok)) throw new Error('Vocabulary files could not load');
+    const nounArticles = parseNounArticles(await genderResponse.text());
+    const vocabularyTexts = await Promise.all(vocabularyResponses.map((response) => response.text()));
+    Object.entries(einlangVocabularyFiles).forEach(([level], index) => {
+      importedFlashcardsByLevel[level] = buildImportedFlashcards(level, parseVocabularyCsv(vocabularyTexts[index]), nounArticles);
+    });
+    if (Object.values(importedFlashcardsByLevel).some((cards) => cards.length !== 500)) throw new Error('Some vocabulary lists were incomplete');
+    try {
+      localStorage.setItem(importedVocabularyCacheKey, JSON.stringify(importedFlashcardsByLevel));
+    } catch {
+      // Cards stay available for this visit if storage is unavailable.
+    }
+    if (currentSkill === 'vocabulary') renderActivity();
+  } catch {
+    // Keep the built-in Austrian German flashcards available if external source files cannot load.
+  }
+}
 
 function getKnownVocabulary() {
   try {
@@ -800,10 +1192,15 @@ function setVocabularyKnown(id, isKnown) {
 }
 
 function getVocabularyCards(level, topic) {
+  if (typeof topic === 'string' && topic.startsWith('einlang-')) {
+    return getAllImportedVocabularyCards(level)
+      .filter((card) => getImportedVocabularyTopic(card).id === topic)
+      .map((card) => ({ ...card, topic: getImportedVocabularyTopic(card).title }));
+  }
   const units = topic === 'quick'
     ? topicUnits[level]
     : [topicUnits[level][topic]];
-  return units.flatMap((unit, unitIndex) => unit.vocabulary.map((entry, wordIndex) => {
+  const cards = units.flatMap((unit, unitIndex) => unit.vocabulary.map((entry, wordIndex) => {
     const separator = entry.indexOf(' — ');
     return {
       id: `${level}-${unitIndex}-${wordIndex}`,
@@ -812,11 +1209,33 @@ function getVocabularyCards(level, topic) {
       topic: unit.title
     };
   }));
+  if (topic === 'quick') {
+    cards.push(...additionalFlashcardsByLevel[level].map((entry, wordIndex) => {
+      const separator = entry.indexOf(' — ');
+      return {
+        id: `${level}-einlang-curated-${wordIndex}`,
+        term: entry.slice(0, separator),
+        meaning: entry.slice(separator + 3),
+        topic: `EINLANG · ${level} WORDLIST`
+      };
+    }));
+    cards.push(...importedFlashcardsByLevel[level]);
+  }
+  return cards;
 }
 
 function renderVocabularyActivity() {
   const cards = getVocabularyCards(currentLevel, currentTopic);
-  currentVocabularyIndex %= cards.length;
+  if (!cards.length) {
+    activityContent.innerHTML = `
+      <article class="vocabulary-flashcard">
+        <div class="flashcard-topline"><span class="exercise-label">AUSTRIAN GERMAN · VOCABULARY</span></div>
+        <p class="flashcard-term">Loading…</p>
+        <div class="flashcard-meaning"><p>Vocabulary cards are loading. Please choose another section or check back in a moment.</p></div>
+      </article>`;
+    return;
+  }
+  currentVocabularyIndex = ((currentVocabularyIndex % cards.length) + cards.length) % cards.length;
   const card = cards[currentVocabularyIndex];
   const known = getKnownVocabulary();
   const knownCount = cards.filter((word) => known.has(word.id)).length;
@@ -1218,7 +1637,7 @@ document.querySelectorAll('.skill-dropdown-select').forEach((select) => {
     if (select.dataset.tabSelect) {
       currentSkill = select.dataset.tabSelect;
     }
-    currentTopic = val === 'quick' ? 'quick' : Number(val);
+    currentTopic = topicValue(val);
     currentActivityIndex = 0;
     currentVocabularyIndex = 0;
     vocabularyMeaningVisible = false;
@@ -1231,7 +1650,7 @@ if (panelTopicSelect) {
   panelTopicSelect.addEventListener('change', (event) => {
     stopRecognition();
     const val = event.target.value;
-    currentTopic = val === 'quick' ? 'quick' : Number(val);
+    currentTopic = topicValue(val);
     currentActivityIndex = 0;
     currentVocabularyIndex = 0;
     vocabularyMeaningVisible = false;
@@ -1517,3 +1936,4 @@ levelCaption.textContent = levelInfo[currentLevel].label;
 renderActivity();
 renderVideoExercise();
 loadDailyNewsExercise();
+loadImportedFlashcards();

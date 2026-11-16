@@ -1,0 +1,1001 @@
+rank,word,part_of_speech,meaning,cefr
+1,der,pronoun,who; that; which,A1
+2,ich,pronoun,I (first person singular nominative (subject) pronoun),A1
+3,sein,verb,to be,A1
+4,sie,pronoun,she,A1
+5,und,conjunction,and,A1
+6,ein,determiner,"a, an",A1
+7,haben,verb,"to have; to own (to possess, have ownership of; to possess a certain characteristic)",A1
+8,das,determiner,the (neuter); that,A1
+9,du,pronoun,"you (singular familiar), thou",A1
+10,er,pronoun,he,A1
+11,nicht,particle,"not, non- (negates the meaning of a verb, adjective, or adverb)",A1
+12,es,pronoun,it,A1
+13,zu,preposition,"to, towards (indicates directionality)",A1
+14,in,preposition,"[with dative] in, inside, within, at (inside a building)",A1
+15,ihr,determiner,her (possessive),A1
+16,wir,pronoun,we,A1
+17,mit,preposition,"with (in the company of, alongside)",A1
+18,werden,verb,to become; to get; to grow; to turn,A1
+19,was,pronoun,what,A1
+20,auf,preposition,"[with dative] on, upon (positioned at the top of)",A1
+21,von,preposition,from,A1
+22,so,adverb,"so, such, that",A1
+23,dass,conjunction,that,A1
+24,wie,conjunction,like,A1
+25,mein,determiner,my,A1
+26,an,preposition,"on, upon, at, in, against",A1
+27,aber,conjunction,but; however; though,A1
+28,können,verb,"to be able (to do or be something), to have the possibility of, can.",A1
+29,sich,pronoun,"Reflexive pronoun of the third person singular or plural: herself, himself, itself, oneself, themselves",A1
+30,wollen,verb,to want; to wish; to desire; to demand,A1
+31,sagen,verb,to say (to pronounce; communicate verbally),A1
+32,dieser,determiner,"this one, this",A1
+33,ja,particle,obviously; certainly; of course; as you know; as is generally known,A1
+34,wenn,conjunction,"when, whenever",A1
+35,da,conjunction,since; as; because; given that,A1
+36,kommen,verb,to come; to arrive,A1
+37,noch,adverb,"still, yet (up to and including a given time)",A1
+38,sehen,verb,to see; to have sight,A1
+39,gut,adverb,"well (accurately, competently, satisfactorily)",A1
+40,gehen,verb,"to go, to walk",A1
+41,wissen,verb,to know; to be aware of (a fact),A1
+42,als,conjunction,"at (approximately) the same moment, when, while, as",A1
+43,für,preposition,describes an abstract directionality towards a person or matter,A1
+44,nur,adverb,"only, just, merely, simply",A1
+45,auch,adverb,"also, too, as well (in addition to whatever or whoever has previously been listed)",A1
+46,hier,adverb,"here; in this place; refers to an environment one is currently in, or to something within reach",A1
+47,kein,determiner,no; not a(n); not one; not any,A1
+48,machen,verb,"to make, to produce, to create (an object, arrangement, situation, etc.)",A1
+49,aus,preposition,out of; from (from the inside of something),A1
+50,müssen,verb,to have to do something implied; must; to be obliged.,A1
+51,sollen,verb,should; to be obligated (to do something); ought; shall,A1
+52,um,preposition,about,A1
+53,bei,preposition,"by, near",A1
+54,alles,pronoun,everything; all,A1
+55,doch,particle,yes; surely; really; on the contrary,A1
+56,schon,adverb,"already (happening rather early, continuing rather long)",A1
+57,tun,verb,to do (to perform or execute an action),A1
+58,dein,determiner,"thy, your (esp. to friends, relatives, children, etc.).",A1
+59,dann,adverb,"then, after that",A1
+60,nein,particle,no,A1
+61,nach,preposition,"after, past (later in time)",A1
+62,man,pronoun,"one, you, they (indefinite pronoun, referring to people at large; construed as a third-person singular)",A1
+63,geben,verb,to give (changing ownership),A1
+64,lassen,verb,to allow; to permit; to let,A1
+65,jetzt,adverb,"now (at this moment, right now)",A1
+66,vor,preposition,"in front of, ahead of (relative location in space)",A1
+67,ganz,adverb,"quite, rather",A1
+68,oder,conjunction,or,A1
+69,all,determiner,all,A1
+70,mehr,adverb,more,A1
+71,viel,determiner,"much, many",A1
+72,denn,conjunction,for; because; since,A1
+73,wieder,adverb,again; indicates that the action taking place has happened before,A1
+74,nichts,pronoun,nothing,A1
+75,hören,verb,to hear (to perceive sounds (or a sound) through the ear),A1
+76,immer,adverb,always,A1
+77,wo,adverb,where (at what place),A1
+78,Mann,noun,"man, male human being",A1
+79,denken,verb,not to forget; to remember,A1
+80,über,preposition,"[with accusative or dative] above, over (spatially)",A1
+81,etwas,determiner,"some, a bit of",A1
+82,leben,verb,"to live, to be alive",A1
+83,nun,adverb,"now, at this moment",A1
+84,Frau,noun,woman (adult female human),A1
+85,anderer,adjective,"other, different",A1
+86,mal,particle,"just, once (softening a request: sag mal)",A1
+87,wer,pronoun,who (what person or people),A1
+88,finden,verb,to find; to discover,A1
+89,nehmen,verb,to take (something into one's possession or on one's body),A1
+90,unser,determiner,our,A1
+91,stehen,verb,"to stand (to be upright, support oneself in an erect position)",A1
+92,sehr,adverb,very,A1
+93,mögen,verb,to like (something or someone),A1
+94,also,conjunction,"so, therefore",A1
+95,sprechen,verb,"to speak (some language, the truth, etc.)",A1
+96,groß,adjective,"big, large, large-scale",A1
+97,meinen,verb,"to opine, to think; to believe; to suppose",A1
+98,glauben,verb,to believe something (to consider true),A1
+99,Zeit,noun,time (as a concept),A1
+100,Haus,noun,house,A1
+101,jeder,determiner,"each, every",A1
+102,schön,adjective,"beautiful, lovely, pretty, handsome",A1
+103,Weg,noun,"path, trail, track (usually for foot traffic)",A1
+104,klein,adjective,"small, little, wee (in physical size or extent)",A1
+105,bleiben,verb,to remain (to continue to be),A1
+106,vielleicht,adverb,"perhaps, maybe",A1
+107,Gott,noun,god,A1
+108,Tag,noun,day (a 24-hour period),A1
+109,durch,preposition,by means of; by; through,A1
+110,Herr,noun,"man, gentleman",A1
+111,bis,preposition,"until, to, (US) through",A1
+112,wohl,particle,"possibly, probably; as I was told",A1
+113,warum,adverb,why; for what reason,A1
+114,Kind,noun,kid; child (young person),A1
+115,Freund,noun,friend,A1
+116,halten,verb,to hold (an object in one's hands),A1
+117,weil,conjunction,"because, given that",A1
+118,Vater,noun,father,A1
+119,nie,adverb,"never, never at all (referring to an indefinite period of time)",A1
+120,bringen,verb,"to bring, to fetch, to take, to convey, to bear",A1
+121,oh,interjection,oh,A1
+122,Jahr,noun,"year (solar year, the time it takes the Earth to complete one orbit of the Sun)",A1
+123,selbst,particle,"personally, by oneself",A1
+124,heute,adverb,today,A1
+125,Hand,noun,hand,A1
+126,zurück,adverb,"back, backward, backwards, to the rear.",A1
+127,neu,adjective,new,A1
+128,wirklich,adverb,"really, actually",A1
+129,Mensch,noun,"human, human being, person, man",A1
+130,zwei,number,two (numerical value represented by the Arabic numeral 2; or describing a set with two components),A1
+131,verstehen,verb,to understand,A1
+132,ohne,preposition,without,A1
+133,kennen,verb,to know; to be acquainted with; to be familiar with,A1
+134,recht,adverb,"very, quite, rather, pretty, fairly",A1
+135,bitte,adverb,"please, if you please (used to make a polite request or affirm an offer)",A1
+136,alt,adjective,old,A1
+137,brauchen,verb,"to need, to be in need of, to require",A1
+138,reden,verb,"to talk, to speak, to orate",A1
+139,lieben,verb,"to love, to have a strong affection for (someone or something)",A1
+140,Leute,noun,"people (several individual persons, a group of people in general, esp. of one kind or another), folk (folks), peeps",A1
+141,gern,adverb,"willingly; gladly; with pleasure; usually expressed verbally in English, with like, enjoy etc.",A1
+142,fragen,verb,to ask,A1
+143,gleich,adverb,alike,A1
+144,ob,conjunction,"Introduces an indirect question, a doubt. if, whether.",A1
+145,dürfen,verb,to be allowed or permitted to do something implied or previously stated; may,A1
+146,Mutter,noun,mother,A1
+147,unter,preposition,under,A1
+148,los,adverb,"rid of, free of",A1
+149,gar,particle,at all (with a negative); even,A1
+150,liegen,verb,to lie (to be in a horizontal position),A1
+151,euer,determiner,your (addressing two or more people informally),A1
+152,warten,verb,to wait (for),A1
+153,ab,preposition,beginning at that time or location; from,A1
+154,helfen,verb,to help (someone); to assist; to aid,A1
+155,beide,determiner,both,A1
+156,Auge,noun,eye,A1
+157,morgen,adverb,tomorrow,A1
+158,fahren,verb,to go at speed,A1
+159,ins,contraction,to the (accusative singular neuter),A1
+160,lange,adverb,"long, for a long time",A1
+161,jung,adjective,young,A1
+162,heißen,verb,"to have a name; to be named; to be called; but implying that one “owns” this name, not necessarily that one goes by it",A1
+163,erste,adjective,first,A1
+164,dort,adverb,"there, yonder",A1
+165,gerade,adverb,now (at the moment),A1
+166,nah,adjective,"near (in space or time or in an abstract sense), close, nearby",A1
+167,hin,adverb,"there, thither; denotes direction towards a place that is not the speaker’s current location.",A1
+168,her,adverb,"hither, to this place, to here, to me/us",A1
+169,einmal,adverb,"once, one time (one and only one time)",A1
+170,Nacht,noun,night,A1
+171,einfach,adverb,easily,A1
+172,jemand,pronoun,"someone, somebody",A1
+173,fallen,verb,to fall; to drop,A1
+174,Ach,noun,oh,A1
+175,suchen,verb,"to search, to look for",A1
+176,Welt,noun,world,A1
+177,allein,conjunction,"only, but",A1
+178,weit,adverb,far,A1
+179,ziehen,verb,to pull; to drag,A1
+180,weiter,interjection,go on,A1
+181,paar,determiner,some; few; a few,A1
+182,rufen,verb,"to call out, to shout, to cry (of a person or animal)",A1
+183,erzählen,verb,"to tell, to narrate, to recount",A1
+184,hoch,adjective,"high, tall",A1
+185,Sache,noun,"matter, affair, case, question, issue",A1
+186,darauf,adverb,after (behind; later in time; following),A1
+187,sicher,adjective,"sure, certain; safe",A1
+188,setzen,verb,to set; to put,A1
+189,erst,adverb,"first, at first",A1
+190,bald,adverb,soon (near in time),A1
+191,gegen,preposition,against,A1
+192,Name,noun,"name (forename, Christian name, given name)",A1
+193,fühlen,verb,"to feel (a thing, sensation, emotion - a noun)",A1
+194,niemand,pronoun,"nobody, no one",A1
+195,leid,adjective,"distressing, uncomfortable",A1
+196,Mädchen,noun,girl,A1
+197,Wort,noun,word as an isolated unit,A1
+198,davon,adverb,"from it, from that, therefrom, off it, off that",A1
+199,Ding,noun,thing,A1
+200,lang,adjective,long; lengthy (in space or time),A1
+201,schnell,adverb,quickly,A1
+202,drei,number,three (numerical value represented by the Arabic numeral 3; or describing a set with three elements),A1
+203,zeigen,verb,"to show, make see",A1
+204,Liebe,noun,love (tender feeling of affection),A1
+205,sterben,verb,to die,A1
+206,laufen,verb,to walk; to jog; to run (to move on foot; either at a normal or an increased speed),A1
+207,Kopf,noun,head,A1
+208,Geld,noun,money,A1
+209,essen,verb,to eat,A1
+210,Abend,noun,evening; the time from dusk until midnight,A1
+211,wenig,adjective,"little, few (a small amount, a small number)",A1
+212,Bruder,noun,brother,A1
+213,genau,adverb,"just, exactly",A1
+214,sonst,adverb,otherwise (under different circumstances),A1
+215,Herz,noun,heart,A1
+216,sitzen,verb,to sit; to perch,A1
+217,Sohn,noun,son,A1
+218,scheinen,verb,to shine; to gleam,A1
+219,seit,preposition,since,A1
+220,richtig,adverb,really,A1
+221,stellen,verb,"to put, place, position (someone or something) such that it stands upright",A1
+222,klar,adverb,"obviously, surely",A1
+223,natürlich,adverb,naturally,A1
+224,spielen,verb,to play (engage in some activity for fun or entertainment),A1
+225,genug,determiner,"enough, sufficient, an adequate number or amount of",A1
+226,Stunde,noun,hour (unit of time consisting of 60 minutes),A1
+227,Tür,noun,door (rigid plane on a hinge),A1
+228,bekommen,verb,to receive; to get,A1
+229,zusammen,adverb,"together, jointly",A1
+230,treffen,verb,to meet; to encounter,A1
+231,tragen,verb,"to carry, to bear (something on one's person)",A1
+232,vergessen,verb,to forget (lose remembrance of),A1
+233,holen,verb,"to (go) get, to fetch (to go somewhere and take something to bring back)",A1
+234,Stadt,noun,city (a large settlement),A1
+235,Alter,noun,"age, old age",A1
+236,dazu,adverb,"in addition to it, in addition, besides",A1
+237,einig,pronoun,"some, a few, plenty",A1
+238,nennen,verb,to name (to give a name to),A1
+239,darüber,adverb,"above, above it/this/that",A1
+240,dafür,adverb,"for that, for it",A1
+241,führen,verb,to lead,A1
+242,arbeiten,verb,to work (to do a specific task by employing physical or mental powers),A1
+243,kurz,adverb,briefly (for a short extent),A1
+244,welcher,determiner,which; what,A1
+245,lachen,verb,to laugh,A1
+246,schaffen,verb,"to create, to call into being",A1
+247,legen,verb,"to lay; to put, place, position (someone or something) such that it afterwards lies",A1
+248,Dank,noun,"thanks, gratitude, appreciation",A1
+249,Land,noun,country (territory of a nation),A1
+250,versuchen,verb,"to try, to attempt (often with an uncertain result)",A1
+251,schwer,adjective,"heavy, weighty",A1
+252,schreiben,verb,"to write, to write out (use letters to make words and texts)",A1
+253,wahr,adjective,"true, real",A1
+254,tot,adjective,"dead, deceased",A1
+255,Tod,noun,death,A1
+256,Arm,noun,an arm,A1
+257,schlafen,verb,to sleep,A1
+258,Ende,noun,"end, finish",A1
+259,Gesicht,noun,face,A1
+260,daran,adverb,"on it, on that",A1
+261,solch,determiner,such,A1
+262,hinter,preposition,"behind, after",A1
+263,eigentlich,adverb,Used to frame a statement as being a more (formally) truthful description of the situation in comparison to another c,A1
+264,danke,interjection,"thanks, thank you",A1
+265,Junge,noun,boy,A1
+266,lesen,verb,"to read (to look at and understand symbols, words, or data)",A1
+267,einzig,adjective,"only, sole",A1
+268,Familie,noun,family,A1
+269,Angst,noun,fear; fright; anxiety,A1
+270,rein,adverb,purely,A1
+271,Glück,noun,"happiness, joy, bliss (state or emotion)",A1
+272,Frage,noun,question (interrogative sentence or phrase),A1
+273,endlich,adverb,"eventually, at last, finally",A1
+274,fast,adverb,almost; nearly,A1
+275,Seite,noun,side (a bounding straight edge of a two-dimensional shape),A1
+276,Arbeit,noun,"toil, regularly performed work, regularly pursued economic activity, labor, job, employment, occupation",A1
+277,eigen,adjective,"own, peculiar or private to someone, idiosyncratic, proper or proprietary",A1
+278,Tochter,noun,daughter,A1
+279,schlagen,verb,to beat; to hit; to knock; to strike; to punch; to hammer; to pound,A1
+280,während,preposition,"during, at the time of",A1
+281,wegen,preposition,"for, because of",A1
+282,welche,determiner,which; some,A1
+283,trinken,verb,"to drink (to drink liquids (in bottles, glasses, etc.) by mouth)",A1
+284,lernen,verb,"to learn, to acquire knowledge",A1
+285,verlassen,verb,"to leave, to abandon; to depart, to forsake",A1
+286,eben,particle,"just, exactly; simply (that is how it is)",A1
+287,schauen,verb,"to watch, to view (a movie or other performance)",A1
+288,Zimmer,noun,"room (separate part of a building, enclosed by walls, a floor and a ceiling)",A1
+289,Schwester,noun,sister,A1
+290,Wagen,noun,a wheeled vehicle for transporting anything,A1
+291,fangen,verb,to catch (grab something flying in the air),A1
+292,letzte,adjective,last,A1
+293,König,noun,"king (monarch, chess, card games)",A1
+294,erinnern,verb,to remind,A1
+295,geschehen,verb,to occur; to happen,A1
+296,stark,adjective,"strong (intense, powerful, unyielding)",A1
+297,zwischen,preposition,between,A1
+298,oft,adverb,often,A1
+299,Macht,noun,"power, authority",A1
+300,ruhig,adverb,quietly,A1
+301,Ordnung,noun,"arrangement, regulation",A1
+302,darum,adverb,"around it, around that",A1
+303,Grund,noun,"ground, land (usually as someone's property)",A1
+304,je,adverb,ever,A1
+305,beginnen,verb,to begin; to commence; to be started,A1
+306,Art,noun,"kind, sort, type",A1
+307,sofort,adverb,"immediately, at once",A1
+308,schlecht,adverb,"badly, poorly, not well (in a bad or poor manner)",A1
+309,verschwinden,verb,"to disappear, to vanish, to move out of view",A1
+310,voll,adverb,fully,A1
+311,bitten,verb,"to ask, to beg, to plead, to bid, to request",A1
+312,Woche,noun,"week (period of seven days counting from Monday to Sunday, or from Sunday to Saturday)",A1
+313,sogar,adverb,"even, actually, in fact",A1
+314,werfen,verb,to throw,A1
+315,schicken,verb,"to send, to dispatch (a person, letter, money etc. to a destination or a person)",A1
+316,Geschichte,noun,history,A1
+317,fest,adjective,firm; compact; hard,A1
+318,töten,verb,to kill,A1
+319,Wasser,noun,water (H₂O),A1
+320,ernst,adjective,"serious, severe, grave",A1
+321,draußen,adverb,outside,A1
+322,reichen,verb,to reach (extend a certain distance),A1
+323,Letzter,noun,the last one (male or of unspecified gender),A1
+324,sondern,conjunction,"rather, but (instead).",A1
+325,frei,adjective,free; unenslaved; unimprisoned,A1
+326,treten,verb,"to step, to walk (a short distance)",A1
+327,leicht,adverb,slightly,A1
+328,Fall,noun,"fall, drop (the act of falling or an instance thereof)",A1
+329,glücklich,adjective,happy; both momentarily and generally in life,A1
+330,Stimme,noun,"voice (speaking or singing), call of an animal",A1
+331,fertig,adjective,ready for use; done; fully prepared,A1
+332,Bett,noun,"bed (piece of furniture, usually flat and soft, for resting or sleeping on; one's place of sleep or rest)",A1
+333,Sorge,noun,"concern, care, responsibility, aid",A1
+334,derselbe,determiner,the same,A1
+335,anders,adverb,"different, differently",A1
+336,Teufel,noun,"the Devil, Satan (supreme evil spirit in the Abrahamic religions)",A1
+337,bloß,adverb,"merely, only",A1
+338,kaum,adverb,"barely, hardly (qualifying verbs or adjectives)",A1
+339,Hilfe,noun,"help, aid",A1
+340,oben,adverb,above,A1
+341,hoffen,verb,to hope,A1
+342,Platz,noun,"square, plaza, piazza",A1
+343,Musik,noun,music,A1
+344,wann,conjunction,when; if,A1
+345,verloren,adjective,"lost, missing",A1
+346,Ruhe,noun,"calm, relative quietness (absence of loud sounds)",A1
+347,tief,adjective,"deep (having a long distance to the bottom; of bodies of water, wells, etc.)",A1
+348,später,adverb,later,A1
+349,Uhr,noun,"hours, o'clock (indicates the time within a twelve- or twenty-four-hour period)",A1
+350,gewinnen,verb,to win; to be victorious,A1
+351,böse,adverb,"nastily, evilly",A1
+352,wichtig,adjective,"important, relevant, significant, weighty",A1
+353,weiß,adjective,white,A1
+354,überhaupt,adverb,"overall, in general",A1
+355,Minute,noun,minute (unit of time; unit of angle),A1
+356,Himmel,noun,sky,A1
+357,folgen,verb,to follow (on the same path or in a sequence),A1
+358,möglich,adjective,possible (what can be done or achieved),A1
+359,Gefühl,noun,feeling (either physical sensation or emotion),A1
+360,schreien,verb,to shout; to yell; to cry; to scream; to howl,A1
+361,bisschen,adverb,(a) bit; (a) little,A1
+362,niemals,adverb,never (at no time),A1
+363,versprechen,verb,to promise,A1
+364,Bild,noun,"depiction, image, picture",A1
+365,stecken,verb,to stick; to put; to insert; to pin,A1
+366,freuen,verb,"to gladden, to make glad, to make pleased",A1
+367,retten,verb,"to save, to rescue",A1
+368,singen,verb,to sing,A1
+369,verlieren,verb,"to lose (something, or a game)",A1
+370,toll,adjective,"great, nice, wonderful",A1
+371,Schatz,noun,treasure,A1
+372,etwa,adverb,approximately,A1
+373,langsam,adverb,"slowly (at a slow pace), gradually, carefully",A1
+374,erklären,verb,"to explain, to make clear",A1
+375,schwarz,adjective,"black, reflecting little or no light",A1
+376,still,adverb,"quietly, silently",A1
+377,gefallen,verb,to please; to appeal to [with dative ‘someone’],A1
+378,selber,pronoun,"self (as in myself, yourself, himself etc.)",A1
+379,bereit,adjective,ready,A1
+380,halt,particle,"just, simply (stating what cannot be helped)",A1
+381,früh,adverb,early,A1
+382,süß,adjective,sweet,A1
+383,falsch,adjective,"false, unfactual, untrue",A1
+384,Fuß,noun,foot (body part),A1
+385,Blut,noun,blood,A1
+386,ziemlich,adverb,"pretty, quite, rather, fairly, kind of",A1
+387,öffnen,verb,to open (to make something accessible or allow for passage by moving from a shut position),A1
+388,Licht,noun,light (electromagnetic radiation in the visible spectrum),A1
+389,eins,number,one (numerical value represented by the Arabic numeral 1; first positive number in the set of natural numbers),A1
+390,bestimmt,adverb,"certainly, definitely",A1
+391,gerne,interjection,"don't mention it, not at all, you're welcome",A1
+392,wieso,adverb,why,A1
+393,Spiel,noun,a game (instance or way of playing),A1
+394,manchmal,adverb,sometimes,A1
+395,Buch,noun,book (collection of sheets of paper bound together to hinge at one edge; long work fit for publication),A1
+396,bedeuten,verb,"to imply, to mean, to signify, to indicate, to spell, to betoken",A1
+397,fliegen,verb,to fly; to travel by air,A1
+398,vier,number,four (numerical value represented by the Arabic numeral 4; or describing a set with four elements),A1
+399,bevor,conjunction,before,A1
+400,Sinn,noun,sense,A1
+401,erkennen,verb,"to recognize, perceive",A1
+402,wünschen,verb,to wish for; to make a wish for; to want; to desire,A1
+403,hängen,verb,"to hang, to be suspended",A1
+404,spät,adjective,late,A1
+405,Kerl,noun,"fellow, guy, chap, bloke",A1
+406,Mama,noun,"mum, mummy, mom, mommy",A1
+407,Straße,noun,"street; road (a way wide enough to be passable for vehicles, generally paved, in or outside a settlement)",A1
+408,kriegen,verb,to get,A1
+409,unten,adverb,below,A1
+410,Dame,noun,lady (woman of good breeding and manners),A1
+411,fort,adverb,away,A1
+412,antworten,verb,"to answer, to reply",A1
+413,gestern,adverb,yesterday,A1
+414,vorbei,adverb,past,A1
+415,Teil,noun,"part, piece (of a whole, often in relation to living things or an abstract concept)",A1
+416,vertrauen,verb,"to trust, to place confidence in",A1
+417,schlimm,adverb,"badly, severely",A1
+418,Wahrheit,noun,truth,A1
+419,echt,adverb,really; indeed,A1
+420,Rede,noun,"speech, address",A1
+421,Erde,noun,earth,A1
+422,Augenblick,noun,"moment, instant, blink of an eye (very short period of time)",A1
+423,Gedanke,noun,thought,A1
+424,steigen,verb,"to ascend, to climb, to rise",A1
+425,klingen,verb,to ring; to clink,A1
+426,Hund,noun,"dog, hound",A1
+427,Ort,noun,"place, location, point, position",A1
+428,hart,adverb,hard (with force or effort),A1
+429,Doktor,noun,doctor,A1
+430,Luft,noun,"air, atmosphere",A1
+431,plötzlich,adverb,"suddenly, abruptly",A1
+432,Geist,noun,spirit,A1
+433,Tisch,noun,table (a piece of furniture with a relatively deep surface at roughly waist or knee level),A1
+434,lieb,adjective,lovable; dear; darling; sweet; good-hearted; kind,A1
+435,Seele,noun,soul,A1
+436,he,interjection,An exclamation to get attention; hey,A1
+437,entschuldigen,verb,to excuse (something or (formal) someone),A1
+438,rot,adjective,red (colour),A1
+439,anfangen,verb,to begin; to commence,A1
+440,ansehen,verb,"to look at, to have a look at (taking in information in doing so)",A1
+441,Stück,noun,"one, item, piece, unit(of something countable; often untranslated in English)",A1
+442,zwar,adverb,"Signals a following contrary clause, which is usually introduced with aber (“but”)",A1
+443,manch,determiner,many a; many; some,A1
+444,herum,adverb,"about, around.",A1
+445,gewiss,adverb,"certainly, indeed",A1
+446,Moment,noun,moment,A1
+447,Haar,noun,"hair (a singular hair, not limited to the head)",A1
+448,zweite,adjective,second,A1
+449,fünf,number,five (numerical value represented by the Arabic numeral 5; or describing a set with five elements),A1
+450,erfahren,verb,"to find out, learn, to come to know",A1
+451,laut,preposition,according to,A1
+452,wohnen,verb,"to live, reside, dwell (to remain or be settled permanently, or for a considerable time)",A1
+453,Fenster,noun,window,A1
+454,fehlen,verb,for there to be a lack [with dative ‘to someone/something’ and an (+ dative) ‘of something’],A1
+455,Mund,noun,mouth of a person,A1
+456,Blick,noun,"glance, look",A1
+457,springen,verb,to spring; to leap; to bounce,A1
+458,Kraft,noun,"power, force, strength",A1
+459,früher,adjective,"former, erstwhile, previous (that which once was, but no longer is)",A1
+460,Geschäft,noun,"shop, store",A1
+461,halb,adverb,"a half-hour before, thirty minutes before (used with the number of the following hour)",A1
+462,Schuld,noun,debt,A1
+463,Schiff,noun,ship,A1
+464,kaufen,verb,"to buy, to purchase",A1
+465,raus,adverb,"out, out of there, outta there",A1
+466,froh,adjective,glad; (momentarily) happy; (momentarily) cheerful,A1
+467,Ehre,noun,honour,A1
+468,hübsch,adjective,"pretty, handsome",A1
+469,deshalb,adverb,"therefore; for that (reason), because of that",A1
+470,Brief,noun,letter (written message),A1
+471,damals,adverb,"at that time (in the past); at the time, then",A1
+472,außer,preposition,except; besides; apart from,A1
+473,brechen,verb,to break,A1
+474,Monat,noun,"month (division of a year, usually one twelfth ≈ 30 days)",A1
+475,wert,adjective,"worth, worthy of",A1
+476,aussehen,verb,"to look, seem",A1
+477,wohin,adverb,"where to, whither",A1
+478,verdienen,verb,"to make money, to earn",A1
+479,Eltern,noun,parents,A1
+480,Pferd,noun,horse,A1
+481,ne,particle,right?; is it?; is it not?; tag question,A1
+482,Waffe,noun,"weapon, arm",A1
+483,Muss,noun,"necessity, a must",A1
+484,offen,adverb,openly,A1
+485,passiert,adjective,sieved,A1
+486,Feuer,noun,fire (chemical process),A1
+487,bezahlen,verb,"to pay, give money",A1
+488,drin,adverb,inside,A1
+489,stolz,adjective,proud,A1
+490,kümmern,verb,"to take care, to look after",A1
+491,zuerst,adverb,"first, firstly",A1
+492,lustig,adjective,"funny, humorous",A1
+493,Boden,noun,"ground, soil",A1
+494,fürchten,verb,to fear,A1
+495,Krieg,noun,"war, warfare",A1
+496,Tier,noun,animal (see usage notes below),A1
+497,dumm,adjective,"dumb, stupid",A1
+498,Ahnung,noun,"anticipation, inkling",A1
+499,indem,conjunction,by (indicates a means),A1
+500,Person,noun,"person, individual",A1
+501,wenigstens,adverb,at least,A1
+502,Stelle,noun,"location, spot (specific location in space, relevant in context but typically otherwise unmarked)",A1
+503,Menge,noun,quantity,A1
+504,Verlangen,noun,"desire, yearning, longing",A1
+505,völlig,adverb,completely,A1
+506,leiden,verb,"to suffer, to experience pain, sorrow, etc.",A1
+507,wahrscheinlich,adverb,"probably, likely",A1
+508,heiraten,verb,to marry; to get married,A1
+509,heraus,adverb,out of (in the direction of the speaker); out over here; out from there,A1
+510,weinen,verb,"to weep, cry",A1
+511,überall,adverb,everywhere,A1
+512,woher,adverb,"where from, whence",A1
+513,dauern,verb,"to last, to continue, to persist (for a period of time)",A1
+514,Weise,noun,"way, manner",A1
+515,nachdem,conjunction,after (that),A1
+516,gehören,verb,"to belong to, be the property of",A1
+517,Schule,noun,school,A1
+518,besonders,adverb,"especially, particularly",A1
+519,kalt,adverb,as base rent; excluding utilities,A1
+520,aufs,contraction,"auf + das, on the, upon the, onto the",A1
+521,erreichen,verb,to reach (to attain by stretching),A1
+522,Lächeln,noun,smile (facial expression),A1
+523,verdammt,adjective,damned,A1
+524,passen,verb,to fit,A1
+525,seltsam,adverb,"strangely, weirdly, oddly, curiously",A1
+526,dunkel,adjective,dark,A1
+527,ewig,adverb,"eternally, for ever",A1
+528,weniger,adverb,less,A1
+529,Kleid,noun,"dress, gown (kind of woman's garment)",A1
+530,Arzt,noun,"doctor, physician (male or of unspecified gender) (without necessarily having a postgraduate degree)",A1
+531,Volk,noun,"people, nation, folk, tribe, race (group united by culture, history, descent, and/or language)",A1
+532,Bein,noun,"leg of a person, animal, or object",A1
+533,Wald,noun,forest; woods; woodland,A1
+534,merken,verb,"to notice, to sense, to be able to tell (the difference in a situation or state)",A1
+535,treiben,verb,to drive (e.g. livestock); to propel; to force,A1
+536,tagen,verb,to meet,A1
+537,leise,adverb,"quietly, softly, low",A1
+538,Papa,noun,"dad, daddy",A1
+539,trotzdem,conjunction,although,A1
+540,rücken,verb,"to move, to push",A1
+541,fassen,verb,"to gird, to surround, to confine into a form",A1
+542,schrecklich,adverb,"awfully, terribly",A1
+543,schließen,verb,to shut; to close; to shut down,A1
+544,Spaß,noun,fun,A1
+545,weh,adjective,"sore, painful",A1
+546,darin,adverb,"in it, in that, therein",A1
+547,Laden,noun,"shop, store",A1
+548,krank,adjective,"ill, sick (in bad health)",A1
+549,Kampf,noun,"struggle, battle, campaign, fight",A1
+550,Freude,noun,"joy, delight, glee",A1
+551,Wein,noun,wine,A1
+552,leider,adverb,unfortunately,A1
+553,neben,preposition,"next to, beside, alongside, adjacent to, near, near to",A1
+554,zehn,number,ten (numerical value represented in Arabic numerals as 10),A1
+555,Bewegung,noun,motion,A1
+556,tanzen,verb,to dance,A1
+557,ehrlich,adjective,"honest, truthful, true",A1
+558,Glaube,noun,"belief, faith",A1
+559,verkaufen,verb,to sell (something in exchange for money),A1
+560,ah,interjection,expressing understanding,A1
+561,drehen,verb,to turn,A1
+562,behalten,verb,"to keep, to retain (money, items, etc. in one's possession)",A1
+563,schießen,verb,to shoot; to fire,A1
+564,küssen,verb,to kiss,A1
+565,Schmerz,noun,"physical pain, ache (practically, as a sensation)",A1
+566,jener,determiner,"that, that one",A1
+567,hassen,verb,to hate,A1
+568,erscheinen,verb,to appear,A1
+569,traurig,adverb,sadly,A1
+570,bekannt,adjective,"known, familiar",A1
+571,dran,adverb,to be in a particular situation,A1
+572,irgendein,determiner,some; any,A1
+573,reich,adjective,"rich, wealthy (having a lot of money and possessions)",A1
+574,fremd,adjective,strange,A1
+575,wunderbar,adjective,wonderful,A1
+576,erhalten,verb,"to receive (something given, sent, won, etc.)",A1
+577,Reise,noun,"journey, travel",A1
+578,Feind,noun,"enemy, fiend, foe (male or of unspecified gender)",A1
+579,Gast,noun,guest,A1
+580,danach,adverb,"after it, after that; thereafter (formal), afterwards",A1
+581,nett,adjective,nice; friendly; likable,A1
+582,Onkel,noun,uncle,A1
+583,bestehen,verb,"to succeed, to pass (an exam)",A1
+584,Versuch,noun,attempt,A1
+585,sorgen,verb,"to take care of, to care for, to look after",A1
+586,benutzen,verb,to make use (of),A1
+587,Finger,noun,finger,A1
+588,willkommen,adjective,welcome (received with gladness),A1
+589,Schritt,noun,"step, footstep (a single instance of walking)",A1
+590,Prinz,noun,prince,A1
+591,Zug,noun,procession (larger group moving together along a common route),A1
+592,Idee,noun,idea,A1
+593,verrückt,adjective,"crazy, mad",A1
+594,Ohr,noun,ear (the auditory organ),A1
+595,Ruf,noun,"call, shout, cry",A1
+596,aufhören,verb,to stop; to quit; to cease,A1
+597,verzeihen,verb,to forgive; to pardon; to excuse,A1
+598,Nachricht,noun,"news, piece of news, notification",A1
+599,vorstellen,verb,"to introduce (someone), to present",A1
+600,nötig,adverb,urgently,A1
+601,erwartet,adjective,"expected, anticipated",A1
+602,heilig,adjective,holy,A1
+603,Sonne,noun,"a sun (a star, especially when being the center of a solar system)",A1
+604,Baum,noun,tree,A1
+605,sechs,number,six (numerical value represented by the Arabic numeral 6; or describing a set with six elements),A1
+606,drüben,adverb,over (implying some distance from the listener),A1
+607,sobald,conjunction,"as soon as, by the time",A1
+608,Weile,noun,"while (uncertain duration of time, period of time)",A1
+609,ehe,conjunction,"before, ere",A1
+610,stimmt,interjection,correct,A1
+611,Hölle,noun,hell,A1
+612,Antwort,noun,answer,A1
+613,Meister,noun,master,A1
+614,Ziel,noun,target,A1
+615,bereits,adverb,already,A1
+616,Gefahr,noun,"danger, hazard, peril, risk",A1
+617,Traum,noun,dream,A1
+618,Schweigen,noun,silence (the lack of any sound or the lack of spoken communication),A1
+619,drücken,verb,"to press, to push (a button/key; a finger or other object against something)",A1
+620,acht,number,eight (numerical value represented by the Arabic numeral 8; or describing a set with eight elements),A1
+621,stören,verb,"to disturb, to interfere, to bother",A1
+622,bemerken,verb,"to notice, to perceive",A1
+623,Wohnung,noun,domicile; dwelling; lodging; abode; accommodation (any place someone lives in for a span of time longer than a holiday),A1
+624,Held,noun,hero,A1
+625,lügen,verb,to tell a lie; to lie (to intentionally give false information),A1
+626,persönlich,adverb,"personally, in person",A1
+627,nämlich,adverb,"namely, specifically; used to further specify what exactly one was talking about just before",A1
+628,Meinung,noun,opinion,A1
+629,bauen,verb,"to build, to construct",A1
+630,Körper,noun,"body (of a person, animal, etc.)",A1
+631,greifen,verb,to grab; to grasp; to grip (something),A1
+632,verstecken,verb,to conceal,A1
+633,erwarten,verb,"to expect, to consider likely",A1
+634,Berg,noun,"a mountain, hill",A1
+635,besorgen,verb,"to deal, to manage, to procure",A1
+636,wild,adjective,"wild (of animals, etc.)",A1
+637,kosten,verb,to cost,A1
+638,dritte,adjective,third,A1
+639,träumen,verb,to dream,A1
+640,Ei,noun,egg (all biological senses),A1
+641,dagegen,conjunction,"however, by contrast, on the other hand",A1
+642,brachte,verb,"brought; preterite of bringen, bring.",A1
+643,dahin,adverb,there (to or into that place; thither),A1
+644,blau,adjective,blue (color/colour),A1
+645,besondere,adjective,"special, particular, extraordinary",A1
+646,raten,verb,to advise; to recommend,A1
+647,anziehen,verb,senses related to dressing,A1
+648,hierher,adverb,"to here, here (to this place), hither",A1
+649,bieten,verb,to offer; to present,A1
+650,Präsident,noun,"president; chairman, chairperson, chair (male or of unspecified gender)",A1
+651,hinaus,adverb,out (away from the speaker),A1
+652,Tat,noun,deed,A1
+653,Lust,noun,desire; the wish to do or have something,A1
+654,Stein,noun,"stone, rock",A1
+655,Nähe,noun,"nearness, closeness",A1
+656,Geheimnis,noun,secret,A1
+657,Gesellschaft,noun,company (presence of other people in general),A1
+658,Plan,noun,project,A1
+659,richten,verb,"to direct, to point",A1
+660,handeln,verb,to act; to take action,A1
+661,unmöglich,adverb,impossibly,A1
+662,heben,verb,to lift; to raise,A1
+663,Kirche,noun,church (building),A1
+664,Gold,noun,"gold (chemical element, Au)",A1
+665,stehlen,verb,to steal,A1
+666,übel,adjective,"bad, evil, terrible (not good, in quality or morality)",A1
+667,übrig,adjective,"rest of, remaining",A1
+668,Schlaf,noun,sleep (condition of reduced consciousness),A1
+669,beweisen,verb,to prove,A1
+670,frisch,adverb,freshly,A1
+671,gefährlich,adjective,"dangerous, hazardous",A1
+672,Zukunft,noun,future,A1
+673,Hoffnung,noun,"hope, the belief or expectation that something wished for can or will really happen.",A1
+674,müde,adjective,tired,A1
+675,vorher,adverb,"beforehand, previously, before (a previously mentioned point or action)",A1
+676,Kaffee,noun,coffee (beverage made by infusing coffee beans in hot water),A1
+677,übrigens,adverb,"apart from that, else, for the rest, for everything else",A1
+678,Raum,noun,space,A1
+679,Schlag,noun,"blow, hit",A1
+680,irgendwo,adverb,somewhere,A1
+681,deutsch,adjective,German (of or pertaining to the German people),A1
+682,Wille,noun,will,A1
+683,Glas,noun,glass,A1
+684,befinden,verb,to occupy a place; to be located; to be situated,A1
+685,Gespräch,noun,"conversation, chat, talk (conversing between people or parties, either for pleasure or for business)",A1
+686,reiten,verb,to ride; to do horseriding,A1
+687,hinten,adverb,behind; in the back,A1
+688,Richter,noun,judge,A1
+689,kämpfen,verb,"to fight, to struggle",A1
+690,ha,interjection,Expresses laughter.,A1
+691,Hallo,noun,"hullabaloo, cheering (often welcoming or celebratory)",A1
+692,überlegen,verb,"to think about, to think over",A1
+693,Polizei,noun,police; law enforcement,A1
+694,erlauben,verb,to allow; to permit,A1
+695,erschrecken,verb,to be frightened; to be startled,A1
+696,Nase,noun,nose,A1
+697,Zeug,noun,"stuff, gear, equipment",A1
+698,gegenüber,preposition,opposite,A1
+699,ändern,verb,"to change, to alter",A1
+700,annehmen,verb,"to assume, to suppose (as given)",A1
+701,Lied,noun,song (musical composition sung with vocals or vocal lyrics),A1
+702,schwören,verb,to swear; to take an oath,A1
+703,Wand,noun,"wall, partition",A1
+704,Vogel,noun,a bird,A1
+705,Schicksal,noun,"destiny, fate (irresistible power that predetermines events)",A1
+706,wenden,verb,to turn something so as to cook or roast it from both sides,A1
+707,Weib,noun,"woman, broad",A1
+708,Brust,noun,chest,A1
+709,Königin,noun,queen,A1
+710,Bank,noun,bench (which people sit on); pew,A1
+711,anrufen,verb,"to call, to ring (by telephone or similar technology)",A1
+712,Tasche,noun,bag,A1
+713,Fehler,noun,"fault, error, mistake",A1
+714,wirken,verb,"to function, to be effective, to work",A1
+715,gebären,verb,"to give birth; referring to labour, or to labour and pregnancy as a whole",A1
+716,Klasse,noun,a class; a grouping,A1
+717,wiederholen,verb,to repeat (to do or say again),A1
+718,Gericht,noun,court (of justice),A1
+719,beruhigen,verb,"to calm down, to quiet",A1
+720,besitzen,verb,"to own, to possess",A1
+721,wachsen,verb,to grow,A1
+722,Karte,noun,"card (flat, normally rectangular piece of stiff paper, plastic etc.)",A1
+723,zwingen,verb,to force; to compel; to make (someone do something),A1
+724,besuchen,verb,"to visit, to see",A1
+725,nicken,verb,to nod (one's head),A1
+726,Hut,noun,hat,A1
+727,reißen,verb,to tear (something); to pull (something) apart; to rip (something),A1
+728,Problem,noun,problem,A1
+729,furchtbar,adverb,"terribly, awfully",A1
+730,Schlüssel,noun,a key,A1
+731,Tor,noun,"gate, archway (passageway covered by an arch, particularly one made of masonry)",A1
+732,Wunsch,noun,wish (an act of wishing),A1
+733,klug,adjective,"intelligent, prudent, wise, smart, clever",A1
+734,sieben,number,seven (numerical value represented by the Arabic numeral 7; or describing a set with seven elements),A1
+735,nachdenken,verb,"to think, to reflect, to ponder",A1
+736,Hals,noun,neck,A1
+737,freundlich,adjective,"friendly, benign",A1
+738,Soldat,noun,soldier,A1
+739,Dienst,noun,service,A1
+740,genießen,verb,to enjoy (an experience); to relish; to savor,A1
+741,irgendwie,adverb,somehow (in some unknown or unspecific manner),A1
+742,verraten,verb,"to betray, to be disloyal to",A1
+743,teilen,verb,"to split, to share",A1
+744,Wahl,noun,"choice, selection",A1
+745,grün,adjective,green (in colour),A1
+746,statt,preposition,"instead of, in one's stead",A1
+747,rennen,verb,"to run; to race; to sprint (said of competing sportsmen, animals etc.)",A1
+748,Rest,noun,"rest, remainder, remnant",A1
+749,Besuch,noun,"visit, call",A1
+750,gelten,verb,to be valid; to count; to hold true,A1
+751,Major,noun,major,A1
+752,übernehmen,verb,"to take over (a task, a position, responsibilities from someone else)",A1
+753,Meer,noun,sea,A1
+754,verfolgen,verb,"to pursue, to follow, to hunt",A1
+755,Blume,noun,"flower, blossom (colorful, conspicuous reproductive structure(s) of an angiosperm)",A1
+756,Vergnügen,noun,"joy, pleasure",A1
+757,Frieden,noun,peace,A1
+758,schenken,verb,"to give as a present, to gift",A1
+759,Armer,noun,"pauper, poor person (male or of unspecified gender)",A1
+760,Opfer,noun,sacrifice,A1
+761,Rolle,noun,"roll, reel, spool",A1
+762,Erinnerung,noun,memory (recall); remembrance,A1
+763,klopfen,verb,"to knock, to rap (strike rather gently with something hard)",A1
+764,Anfang,noun,"start, beginning, origin (spatially or temporally)",A1
+765,Gesetz,noun,"law, legal act, bill, statute",A1
+766,jagen,verb,to hunt (game),A1
+767,walten,verb,"to rule, to exercise control",A1
+768,Garten,noun,"garden, yard (grounds at the front or back of a house)",A1
+769,voller,preposition,full of,A1
+770,solange,conjunction,as long as,A1
+771,Spur,noun,trace (rest of something that indicates its former presence; (by extension) any small amount),A1
+772,herein,adverb,in (in the direction of the speaker),A1
+773,melden,verb,"to report, to inform (about an incident or condition)",A1
+774,Regen,noun,rain,A1
+775,hinein,adverb,in (away from the speaker),A1
+776,zählen,verb,to count (to determine the number of objects in a group),A1
+777,daher,adverb,"from there, thence",A1
+778,jemals,adverb,ever,A1
+779,heiß,adjective,hot (having a high temperature),A1
+780,Hochzeit,noun,"wedding, marriage (a ceremony in which people are married and/or a celebration thereof)",A1
+781,entscheiden,verb,"to decide, to make a decision",A1
+782,Dorf,noun,village (rural habitation of size between a hamlet and a town),A1
+783,ans,contraction,"an + das, on(to) the, to the",A1
+784,Schaden,noun,damage; harm,A1
+785,warm,adjective,warm; mildly hot,A1
+786,Mut,noun,courage; bravery,A1
+787,Beispiel,noun,example,A1
+788,Zeichen,noun,"sign, token (object representing something)",A1
+789,zerstören,verb,"to destroy, demolish, devastate, eliminate",A1
+790,überzeugen,verb,to convince,A1
+791,riechen,verb,to smell (something); to sniff (something),A1
+792,Mörder,noun,"murderer, assassin, assassinator, killer, slayer (male or of unspecified gender)",A1
+793,atmen,verb,to breathe,A1
+794,bewegt,adjective,"agitated, disturbed",A1
+795,schließlich,adverb,"in the end, finally, eventually",A1
+796,wozu,adverb,"for what reason, to what purpose, what for, why?",A1
+797,Schluss,noun,"end, ending, conclusion, finish",A1
+798,spüren,verb,"to sense, to detect, to perceive",A1
+799,Lage,noun,"location, position",A1
+800,Intensivstation,noun,intensive care unit,A1
+801,fein,adjective,"fine (not rough, coarse, or thick)",A1
+802,Gang,noun,"motion, movement, progress, way, going",A1
+803,weder,conjunction,neither (only with noch),A1
+804,komisch,adjective,"comedic, comic, pertaining to comedy",A1
+805,vorsichtig,adverb,carefully,A1
+806,tausend,number,thousand,A1
+807,zahlen,verb,to pay,A1
+808,Büro,noun,office (room for working),A1
+809,allerdings,adverb,"but, however",A1
+810,Katze,noun,"house cat, Felis silvestris catus",A1
+811,Nutzen,noun,benefit,A1
+812,Verbindung,noun,connection,A1
+813,Lady,noun,"lady, Lady (British noblewoman)",A1
+814,außerdem,adverb,"in addition; furthermore, besides",A1
+815,schwach,adjective,"weak, lacking in strength",A1
+816,gesund,adjective,healthy (enjoying health),A1
+817,Mord,noun,murder,A1
+818,bisher,adverb,"so far, until now, as yet",A1
+819,Gefängnis,noun,"prison, jail (building)",A1
+820,Graf,noun,count (a member of the German nobility),A1
+821,trennen,verb,"to separate, sever, part, disunite, uncouple, segregate, unjoin, disjoin",A1
+822,leer,adjective,empty,A1
+823,schneiden,verb,to cut; to carve; to slice,A1
+824,erleben,verb,to experience,A1
+825,Entschuldigung,noun,apology (expression of remorse or regret),A1
+826,erfüllen,verb,to fulfill / fulfil,A1
+827,worauf,adverb,whereupon; upon which; on which; to which; at which; above which; upon.,A1
+828,menschlich,adjective,"human, manlike",A1
+829,lösen,verb,to loose; to loosen; to detach; to remove,A1
+830,fern,preposition,far away from something,A1
+831,aufnehmen,verb,"to pick up, lift up",A1
+832,begreifen,verb,"to grasp fully; to comprehend; to conceive, to fathom",A1
+833,befehlen,verb,to command; to order (someone to do something),A1
+834,fröhlich,adjective,merry; cheerful; either as a character trait or fleetingly,A1
+835,Madame,noun,madam,A1
+836,Witz,noun,joke,A1
+837,Wunder,noun,miracle,A1
+838,ähnlich,adjective,"similar, alike, resembling",A1
+839,See,noun,lake,A1
+840,hauen,verb,"to thrust, slash (with a weapon)",A1
+841,dienen,verb,to serve,A1
+842,beobachten,verb,"to watch, to observe",A1
+843,Lehrer,noun,"one who teaches, teacher, instructor, especially a school teacher",A1
+844,obwohl,conjunction,"although, though, while",A1
+845,wovon,adverb,"about what, what ... about",A1
+846,einsam,adjective,"lonely, lone",A1
+847,brennen,verb,to burn; to light on fire,A1
+848,Leiche,noun,"dead body, corpse, cadaver, carcass",A1
+849,Papier,noun,paper (material),A1
+850,gucken,verb,"to look, to direct one's gaze at something",A1
+851,scharf,adjective,"sharp; able to cut (of a knife, edge)",A1
+852,Großvater,noun,grandfather,A1
+853,diesmal,adverb,this time,A1
+854,Wind,noun,wind; the movement of air usually caused by convection or differences of air pressure,A1
+855,Punkt,noun,dot (marking an abbreviation),A1
+856,Professor,noun,professor,A1
+857,Gelegenheit,noun,"opportunity, chance, instance, occasion",A1
+858,stürzen,verb,"to fall down, to drop, to tumble",A1
+859,Rat,noun,"advice, counsel",A1
+860,kehren,verb,to sweep,A1
+861,packen,verb,"to pack (luggage, a bundle, etc.); to get packed",A1
+862,danken,verb,to thank,A1
+863,beten,verb,to pray,A1
+864,ankommen,verb,to arrive,A1
+865,Mark,noun,a usually fortified area along the border; marches,A1
+866,schuldig,adjective,"[with genitive] guilty (of), culpable",A1
+867,umbringen,verb,"to kill, to murder, to do away with",A1
+868,stoßen,verb,to push; to shove; to thrust,A1
+869,derjenige,determiner,he (who),A1
+870,rund,adjective,"round, rounded, similar as in English, especially (circular)",A1
+871,links,adverb,on the left,A1
+872,Wesen,noun,"creature, being",A1
+873,Geschenk,noun,"present, gift",A1
+874,passieren,verb,to happen,A1
+875,Sicherheit,noun,certainty,A1
+876,entfernt,adjective,distant,A1
+877,entdecken,verb,"to discover, to spot, to learn for the first time",A1
+878,verschieden,adjective,different,A1
+879,begleiten,verb,to accompany,A1
+880,zufrieden,adjective,"satisfied, content, happy (with something)",A1
+881,wiedersehen,verb,"to see again, to meet again",A1
+882,Möglichkeit,noun,"possibility, likelihood",A1
+883,Natur,noun,nature (the natural world),A1
+884,Stern,noun,a star; a small luminous dot that can be seen on the night sky,A1
+885,Engel,noun,angel,A1
+886,Hof,noun,"yard, court, courtyard (open area by a house or enclosed by houses)",A1
+887,beschäftigt,adjective,busy (engaged in an activity; doing a great deal),A1
+888,fliehen,verb,to flee; to escape,A1
+889,Beziehung,noun,"relation, relationship, connection",A1
+890,Million,noun,million (10⁶),A1
+891,binden,verb,"to bind, to tie, to fasten something by means of a string etc.",A1
+892,verbringen,verb,"to spend, to pass (a period of time)",A1
+893,mitnehmen,verb,to take with; to carry along,A1
+894,leisten,verb,"to perform (a task, work), to accomplish (a task), to achieve (a goal)",A1
+895,dick,adjective,thick,A1
+896,verhalten,verb,to behave,A1
+897,aufstehen,verb,to get up (move from a sitting or lying position to a standing position; to get up from bed),A1
+898,Richtung,noun,direction,A1
+899,Stuhl,noun,a chair (to sit on),A1
+900,jedenfalls,adverb,in any case,A1
+901,Zeitung,noun,newspaper,A1
+902,ergeben,verb,"to yield, produce",A1
+903,gemeinsam,adverb,"together, jointly",A1
+904,daraus,adverb,"out of it, out of that, of it",A1
+905,gleichen,verb,"to be like, to equal to, to resemble",A1
+906,Preis,noun,price,A1
+907,bewegen,verb,to motivate; to persuade; to prompt (someone or something to do something); to make,A1
+908,Befehl,noun,"command, order",A1
+909,einander,pronoun,Reciprocal pronoun of all three plural persons: each other,A1
+910,deswegen,adverb,"therefore, because of that",A1
+911,herzlich,adjective,"warm, warmhearted, friendly, affectionate, cordial",A1
+912,unterwegs,adverb,"on one’s way, underway, en route, in transit, going, travelling",A1
+913,Gegend,noun,"area, region",A1
+914,zurückkehren,verb,to return,A1
+915,empfinden,verb,to feel; to sense; to perceive something through the sense organs.,A1
+916,beinahe,adverb,almost; nearly,A1
+917,Flasche,noun,bottle; flask; flagon,A1
+918,Zustand,noun,condition; state,A1
+919,Schuh,noun,shoe,A1
+920,aufhalten,verb,"to halt, to stop; to hold (someone) up",A1
+921,Majestät,noun,majesty,A1
+922,Sekunde,noun,A unit of time; a second.,A1
+923,heim,adverb,"home, to the house; always as a direction, thus never in the sense of at home",A1
+924,Kunst,noun,art,A1
+925,begegnen,verb,"meet, to encounter, to come across",A1
+926,schlimmer,adverb,worse,A1
+927,Schatten,noun,"shade, shadow",A1
+928,tatsächlich,adverb,"actually, really, indeed",A1
+929,Pause,noun,"pause, break",A1
+930,mächtig,adjective,"powerful, mighty",A1
+931,mehrere,determiner,"multiple, several; more than one; a number of",A1
+932,Firma,noun,"A company, a business.",A1
+933,Schulter,noun,shoulder,A1
+934,rechts,adverb,on the right,A1
+935,bestellen,verb,"to order (e.g. food at a restaurant, items for delivery)",A1
+936,mitten,adverb,In the middle.,A1
+937,interessant,adverb,interestingly,A1
+938,wählen,verb,"to choose, to select",A1
+939,Gute,noun,good (as a noun),A1
+940,Lauf,noun,"run, race",A1
+941,nieder,adverb,down,A1
+942,unternehmen,verb,to undertake,A1
+943,Hotel,noun,hotel,A1
+944,Rose,noun,rose,A1
+945,Ring,noun,"a ring (a circular and hollow object, made of any material.)",A1
+946,Schwert,noun,sword,A1
+947,Jacke,noun,jacket,A1
+948,feiern,verb,to celebrate; to party; applicable from the most solemn to the most revelrous forms,A1
+949,unglaublich,adverb,"unbelievably, incredibly (to an extent not to be believed)",A1
+950,verdammen,verb,"to condemn, to doom",A1
+951,Ecke,noun,"corner, edge",A1
+952,unschuldig,adjective,innocent,A1
+953,Nummer,noun,number; see usage notes below,A1
+954,langen,verb,"to reach, to grab",A1
+955,Beweis,noun,proof,A1
+956,vergeben,verb,to forgive,A1
+957,selten,adverb,seldom; rarely,A1
+958,Knie,noun,knee,A1
+959,lebendig,adjective,"living, alive, animate",A1
+960,behandeln,verb,to treat (medicinally),A1
+961,Farbe,noun,colour,A1
+962,Fluss,noun,river,A1
+963,miteinander,adverb,together (with),A1
+964,ausgehen,verb,to go out (to leave one's abode to go to public places),A1
+965,längst,adverb,"long ago, long",A1
+966,großartig,adverb,"magnificently, greatly",A1
+967,Schloss,noun,"lock, padlock (something used for fastening)",A1
+968,Toter,noun,cadaver; corpse (male or of unspecified gender),A1
+969,Benehmen,noun,"behavior, demeanor, manners, conduct",A1
+970,Ton,noun,clay,A1
+971,Pass,noun,"pass, mountain pass",A1
+972,Schüler,noun,"pupil, student, schoolboy (male or of unspecified gender)",A1
+973,ärgern,verb,"to annoy, to make angry",A1
+974,Zahn,noun,tooth,A1
+975,empfangen,verb,"to receive (e.g. a present, a guest)",A1
+976,merkwürdig,adjective,"strange, odd",A1
+977,wach,adjective,awake,A1
+978,berühren,verb,to touch,A1
+979,einladen,verb,to invite,A1
+980,schmecken,verb,to taste,A1
+981,lächerlich,adjective,"ridiculous, risible, laughable",A1
+982,Freiheit,noun,freedom,A1
+983,Messer,noun,knife,A1
+984,erheben,verb,"to raise, lift (one's arm, voice, glass, etc.)",A1
+985,zurückkommen,verb,to return (to come back),A1
+986,Küche,noun,kitchen (room),A1
+987,vollkommen,adverb,completely,A1
+988,Kaiser,noun,emperor (ruler of certain monarchies; highest monarch),A1
+989,geschlossen,adjective,shut; closed; locked,A1
+990,trotz,preposition,"in spite of, despite",A1
+991,grüßen,verb,to greet,A1
+992,Lüge,noun,lie,A1
+993,deutlich,adverb,"distinctly, clearly",A1
+994,seufzen,verb,"to sigh (to exhale audibly, usually accompanied by a deep, nasal sound of the voice)",A1
+995,direkt,adverb,directly,A1
+996,Bier,noun,beer (alcoholic beverage fermented from starch material; a serving of this beverage),A1
+997,unterhalten,verb,to maintain,A1
+998,kennenlernen,verb,"to get to know, become acquainted with (a person, place, thing); to befriend.",A1
+999,betreffen,verb,"to concern, to have to do with or affect a business of",A1
+1000,Gewalt,noun,strong or violent force,A1
